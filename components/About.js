@@ -7,6 +7,7 @@ import Slider from "react-slick";
 
 const About = () => {
 
+  
 
   return (
     <>
@@ -18,10 +19,10 @@ const About = () => {
           <div className="row">
             <div className="col-md-6">
               <h1 className="mb-3">
-                <span className="bottom_line_about position-relative">
+                <span className="mycolor">
                   About
                 </span>
-                <span> Us </span>
+                <span className="bottom_Textline_center position-relative"> Us </span>
               </h1>
               <p className="">
                 <b>Webapp</b> is a leading

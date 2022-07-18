@@ -3,6 +3,7 @@ import { useForm } from "react-hook-form";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
+import Link from "next/link";
 
 const GetInTouch = () => {
   const {
@@ -86,7 +87,7 @@ const GetInTouch = () => {
                             {...register("firstName", { required: true })}
                             placeholder="Full Name*"
                           />
-                          {errors.firstName && <p>Last name is required</p>}
+                          {errors.firstName && <p>This field required</p>}
                         </div>
                       </div>
                       <div className="col-md-6 col-sm-12">
@@ -97,7 +98,7 @@ const GetInTouch = () => {
                             {...register("email", { required: true })}
                             placeholder="Email Address*"
                           />
-                          {errors.email && <p>Last name is required</p>}
+                          {errors.email && <p>This field required</p>}
                         </div>
                       </div>
                     </div>
@@ -112,7 +113,7 @@ const GetInTouch = () => {
                             placeholder="Location"
                             {...register("location", { required: true })}
                           />
-                          {errors.location && <p>Last name is required</p>}
+                          {errors.location && <p>This field required</p>}
                         </div>
                       </div>
 
@@ -127,7 +128,7 @@ const GetInTouch = () => {
                             placeholder="Mobile Number"
                             {...register("phone_number", { required: true })}
                           />
-                          {errors.phone_number && <p>Last name is required</p>}
+                          {errors.phone_number && <p>This field required</p>}
                         </div>
                       </div>
                     </div>
@@ -142,7 +143,7 @@ const GetInTouch = () => {
                             placeholder="Message"
                             {...register("description", { required: true })}
                           ></textarea>
-                          {errors.description && <p>This is required.</p>}
+                          {errors.description && <p>This field required.</p>}
                         </div>
                       </div>
                     </div>
@@ -152,19 +153,23 @@ const GetInTouch = () => {
                         <input
                           className="form-check-input"
                           type="checkbox"
-                          id="acceptTerms"
+                          id="invalidCheck"
                           value=""
                         />
 
                         <label
-                          className="form-check-label fs-4"
+                          className="form-check-label fs-6"
                           htmlFor="invalidCheck"
+                       
                         >
                           I understand and agree that the information submitted
                           in this form will be transmitted to, stored and
-                          processed by Webapp, in accordance with their
-                          <a href="#" target="_blank" className="text-danger" />
-                          &gt; Privacy Policy.
+                          processed by Webapp, in accordance with their&nbsp;
+                           <Link href="/privacy-policy">
+                            <a target="_blank" className="text-danger">
+                               Privacy Policy.
+                            </a>
+                          </Link>
                         </label>
                         <div />
                       </div>

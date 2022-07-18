@@ -17,10 +17,7 @@
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
   }
-  .col-lg-4, .col-sm-12, .col-lg-4{
-      padding: 0;
-  }
-  
+
   .project_image_section {
     display: flex;
     cursor: pointer;

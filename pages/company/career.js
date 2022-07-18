@@ -1,20 +1,21 @@
+/* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Head from "next/head";
 
-import workinghour from "../../images/career/work_hours.png";
-import WorkEnvironment from "../../images/career/Work_Environment.png";
-import insuranceplan from "../../images/career/insurance_plan.png";
-import growth from "../../images/career/growth.png";
-import bonus from "../../images/career/bonus.png";
-import workplace from "../../images/career/workplace.png";
-import hr from "../../images/career/HR.jpg";
-import technicalround from "../../images/career/technical_round.png";
-import finalround from "../../images/career/final_round.png";
-import arrow from "../../images/career/Icon ionic-ios-arrow-round-forward@2x.png";
-import career from "../../images/career/career.png";
+import workinghour from "/images/career/work_hours.png";
+import WorkEnvironment from "/images/career/Work_Environment.png";
+import insuranceplan from "/images/career/insurance_plan.png";
+import growth from "/images/career/growth.png";
+import bonus from "/images/career/bonus.png";
+import workplace from "/images/career/workplace.png";
+import hr from "/images/career/HR.jpg";
+import technicalround from "/images/career/technical_round.png";
+import finalround from "/images/career/final_round.png";
+import arrow from "/images/career/Icon ionic-ios-arrow-round-forward@2x.png";
+import career from "/images/career/career.png";
 
 const Career = () => {
   return (
@@ -31,8 +32,9 @@ Webapp is one of the top trusted Software development company in the UK which is
           content="Custom software development,Software development company,Software development company in UK,Mobile app development Comapny"
         />
       </Head>
+
       <section>
-        <div className="career-page">
+        <div className="career-page overflow-hidden">
           <div className="career-main">
             <div className="row">
               <div className="col-lg-6 col-sm-12 main_card_div-lg-6">
@@ -63,19 +65,19 @@ Webapp is one of the top trusted Software development company in the UK which is
               </div>
               <div className="col-lg-6 col-sm-12 main_card_div-lg-6">
                 <div className="right-image">
-                  <Image className="img-fluid" src={career} alt="career" />
+                  <img className="img-fluid" src="/images/career/career.png" alt="career" />
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="container-fluid">
+        <div className="container">
           <div className="career_card my-5">
             <div className="text-center top_text">
               <h1 className="mb-5">
-                <span className="mycolor">Perks To Work With</span>
-                <span className="bottom_Textline_center position-relative">
+                <span className="mycolor">Perks To Work With </span>
+                <span className="bottom_Textline_center position-relative text-black">
                   Webapp
                 </span>
               </h1>
@@ -91,6 +93,8 @@ Webapp is one of the top trusted Software development company in the UK which is
                 <div className="card card_main_page shadow">
                   <div className="svg-career-icon">
                     <Image
+                      width={100}
+                      height={100}
                       src={workinghour}
                       className="card-img-top"
                       alt="Flexible work hours"
@@ -110,6 +114,8 @@ Webapp is one of the top trusted Software development company in the UK which is
                 <div className="card card_main_page shadow">
                   <div className="svg-career-icon">
                     <Image
+                      width={100}
+                      height={100}
                       src={WorkEnvironment}
                       className="card-img-top"
                       alt="Work Environment"
@@ -129,6 +135,8 @@ Webapp is one of the top trusted Software development company in the UK which is
                 <div className="card card_main_page shadow">
                   <div className="svg-career-icon">
                     <Image
+                      width={100}
+                      height={100}
                       src={insuranceplan}
                       className="card-img-top"
                       alt="Insurance Plan"
@@ -148,8 +156,8 @@ Webapp is one of the top trusted Software development company in the UK which is
               <div className="col main_card_div">
                 <div className="card card_main_page shadow">
                   <div className="svg-career-icon">
-                    <Image
-                      src={growth}
+                    <img
+                      src="/images/career/growth.png"
                       className="card-img-top"
                       alt="Growth Opportunity"
                     />
@@ -169,8 +177,9 @@ Webapp is one of the top trusted Software development company in the UK which is
               <div className="col main_card_div">
                 <div className="card card_main_page shadow">
                   <div className="svg-career-icon">
-                    <Image
-                      src={bonus}
+                    <img
+                      src="/images/career/bonus.png"
+                  
                       className="card-img-top"
                       alt="Performance Bonus"
                     />
@@ -192,8 +201,8 @@ Webapp is one of the top trusted Software development company in the UK which is
               <div className="col main_card_div">
                 <div className="card card_main_page shadow">
                   <div className="svg-career-icon">
-                    <Image
-                      src={workplace}
+                    <img
+                     src="/images/career/workplace.png"
                       className="card-img-top"
                       alt="Workplace Celebrations"
                     />
@@ -215,15 +224,15 @@ Webapp is one of the top trusted Software development company in the UK which is
         </div>
 
         <div className="Interview_process">
-          <div className="container-fluid">
+          <div className="container">
             <div className="career_card my-6">
               <div className="text-center Interview_process_heading top_text">
-                <h1>
-                  <span className="bottom_Textline_center position-relative">
+                <h1 className="m-0">
+                  <span className="bottom_Textline_center position-relative text-dark m-0">
                     Interview Process
                   </span>
                 </h1>
-                <p className="my-5">
+                <p className="mb-5 mt-2 fs-6 fw-lighter text-dark py-2">
                   The selection of a candidate depends solely on their
                   performance during the interview. In general, there are three
                   phases in the interview process, which are as follows:
@@ -231,14 +240,20 @@ Webapp is one of the top trusted Software development company in the UK which is
               </div>
               <div className="row row-cols-1 row-cols-md-3 g-5">
                 <div className="col">
-                  <div className="card shadow position-relative">
+                  <div
+                    className="card shadow position-relative"
+                    style={{ height: "33rem" }}
+                  >
                     <div className="">
                       <Image src={hr} className="card-img-top" alt="HR ROUND" />
                     </div>
-                    <div className="text-start shadowcard position-absolute bottom-0">
+                    <div
+                      className="text-start shadowcard position-absolute bottom-0 px-3"
+                      style={{ height: "16rem" }}
+                    >
                       <h3>01</h3>
                       <h5 className="py-2 fw-bold">HR ROUND</h5>
-                      <p>
+                      <p className="fs-6 fw-lighter">
                         In the first phase, a candidate would take a human
                         resources evaluation where they would be asked questions
                         about adaptability, leadership, growth potential, etc.
@@ -256,10 +271,13 @@ Webapp is one of the top trusted Software development company in the UK which is
                         alt="TECHNICAL ROUND"
                       />
                     </div>
-                    <div className="text-start shadowcard position-absolute bottom-0">
+                    <div
+                      className="text-start shadowcard position-absolute bottom-0 px-3"
+                      style={{ height: "16rem" }}
+                    >
                       <h3>02</h3>
                       <h5 className="py-2 fw-bold">TECHNICAL ROUND</h5>
-                      <p>
+                      <p className="fs-6 fw-lighter">
                         The technical round will contain questions related to
                         the candidates domain. After the question-answer round,
                         the candidate will be performing a machine round which
@@ -278,10 +296,13 @@ Webapp is one of the top trusted Software development company in the UK which is
                         alt="FINAL ROUND"
                       />
                     </div>
-                    <div className="text-start shadowcard position-absolute bottom-0">
+                    <div
+                      className="text-start shadowcard position-absolute bottom-0 px-3"
+                      style={{ height: "16rem" }}
+                    >
                       <h3>03</h3>
                       <h5 className="py-2 fw-bold">FINAL ROUND</h5>
-                      <p>
+                      <p className="fs-6 fw-lighter">
                         This part of the interview is the last stage where the
                         candidate will be having a final discussion with the
                         Managing Director of the company and after the final
@@ -295,7 +316,7 @@ Webapp is one of the top trusted Software development company in the UK which is
           </div>
         </div>
 
-        <div className="container-fluid current-opening-div mb-5">
+        <div className="container current-opening-div mb-5">
           <div className="my-5 text-center current-text">
             <h2 className="fw-bolder bottom_line_currentText position-relative">
               Current <span>Openings</span>
@@ -312,14 +333,17 @@ Webapp is one of the top trusted Software development company in the UK which is
                 <p>2</p>
               </div>
               <div className="col-md-4 sendCV">
-                <Link href="/company/career-form">
-                  <button className="btn px-5 border-0">Send CV</button>
+                <Link href="/company/careerForm">
+                  <a>
+                    <button className="btn px-5 border-0">Send CV</button>
+                  </a>
                 </Link>
-                {/* <Image
-                  width="10%"
-                  src={dfd}
+                <img
+                  width={50}
+                  height={20}
+                  src="../../images/career/Icon ionic-ios-arrow-round-forward@2x.png"
                   alt=""
-                /> */}
+                />
               </div>
             </div>
           </div>
@@ -335,10 +359,17 @@ Webapp is one of the top trusted Software development company in the UK which is
                 <p>2</p>
               </div>
               <div className="col-md-4 sendCV">
-                <Link href="/company/career-form">
-                  <button className="btn px-5 border-0">Send CV</button>
+                <Link href="/company/careerForm">
+                  <a>
+                    <button className="btn px-5 border-0">Send CV</button>
+                  </a>
                 </Link>
-                <Image width="10%" src={arrow} alt="" />
+                <img
+                  width={50}
+                  height={20}
+                  src="../../images/career/Icon ionic-ios-arrow-round-forward@2x.png"
+                  alt=""
+                />
               </div>
             </div>
           </div>
@@ -354,10 +385,17 @@ Webapp is one of the top trusted Software development company in the UK which is
                 <p>2</p>
               </div>
               <div className="col-md-4 sendCV">
-                <a href="/company/career-form">
-                  <button className="btn px-5 border-0">Send CV</button>
-                </a>
-                <Image width="10%" src={arrow} alt="" />
+                <Link href="/company/careerForm">
+                  <a>
+                    <button className="btn px-5 border-0">Send CV</button>
+                  </a>
+                </Link>
+                <img
+                  width={50}
+                  height={20}
+                  src="../../images/career/Icon ionic-ios-arrow-round-forward@2x.png"
+                  alt=""
+                />
               </div>
             </div>
           </div>

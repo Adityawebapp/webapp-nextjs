@@ -40,9 +40,7 @@
     cursor: pointer;
   }
   
-  .slick-active {
-    color: red !important;
-  }
+
   
   /* get in touch for clicking   */
   
@@ -321,24 +319,7 @@
   /* =========================================================================== */
   
   /* button hover to show  */
-  
-  .my_button_home .close:hover,
-  .my_button_home .close:focus {
-    box-shadow: inset -7.2em 0 0 0 #ffffff, inset 7.2em 0 0 0 #ffffff!important;
-    color: #ae0000!important;
-    border:1px solid red!important;
-  
-  }
-  
-  .my_button_home button {
-    color:rgb(255, 255, 255)!important;
-    transition: 0.55s!important;;
-  }
-  button:hover, button:focus {
-    border-color:1px solid red!important;
-    color: rgb(0, 0, 0)!important;
-  }
-  
+
   
   
   

@@ -1,24 +1,43 @@
 /* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
+import Head from "next/head";
 import React from "react";
-import CompanyProduct from '/components/CompanyProduct'
-import styles from './mobile-css/ios.module.css'
+import CompanyProduct from "/components/CompanyProduct";
+import styles from "./mobile-css/ios.module.css";
+import IndustriesWeServe from "../../../components/IndustriesWeServe";
+import ProcessWeFollow from "../../../components/ProcessWeFollow";
 
 const IosAppDevelopment = () => {
   return (
     <>
+      <Head>
+        <title>IOS Application Development Services - Webapp UK</title>
+        <meta
+          name="description"
+          content="We are the number one IOS application development company providing the best services for our clients. Our experts can help you build the best apps."
+        />
+        <meta
+          name="keywords"
+          content="Apple development ios push services,
+android and ios app development services,
+Custom ios app development services,
+Ios application services,
+Ios game development services"
+        />
 
-
-<CompanyProduct/>
-
+        <link
+          rel="canonical"
+          href="https://www.webapp.world/services/mobile-app-trends/ios-app-development/"
+        />
+      </Head>
 
       <div className="inner_page">
         <section className={`${styles.iosbg} ${styles.yellow}`}>
           <div className="container">
             <div className="row flex-reverse">
-              <div className="col-lg-5 col-md-5 col-sm-12 d-flex align-items-center">
+              <div className="col-lg-5 col-md-5 col-sm-12 d-flex align-items-center text-white">
                 <div className="top_text">
-                  <h1 className="text-black">
+                  <h1 className="">
                     Best in iOS App Development Company
                   </h1>
                   <p className="my-3">
@@ -74,10 +93,12 @@ const IosAppDevelopment = () => {
               >
                 <h1 className="mb-5">
                   <span className="mycolor">
-                 
                     Why Choose us for iOS App Development
                   </span>
-                  <span className="border-bottom "> Services?</span>
+                  <span className="bottom_Textline_center position-relative ">
+                    {" "}
+                    Services?
+                  </span>
                 </h1>
                 <p>
                   With an extensive portfolio of iOS app development projects,
@@ -118,7 +139,10 @@ const IosAppDevelopment = () => {
         <div className="container development_section">
           <h1 className="text-center mt-5">
             <span className="mycolor">Benefits Of IOS App Development</span>
-            <span className="border-bottom"> Services </span>
+            <span className="bottom_Textline_center position-relative">
+              {" "}
+              Services{" "}
+            </span>
           </h1>
           <p className="text-center mt-4 mb-4">
             We make sure to use the most advanced tools in order to achieve the
@@ -161,7 +185,7 @@ const IosAppDevelopment = () => {
                 <div className="card-body">
                   <div className="text-center py-3 development_card">
                     <Image
-                        width="80px"
+                      width="80px"
                       height="80px"
                       src="https://img.icons8.com/external-kiranshastry-gradient-kiranshastry/64/000000/external-web-development-coding-kiranshastry-gradient-kiranshastry.png"
                       alt=""
@@ -192,7 +216,7 @@ const IosAppDevelopment = () => {
                 <div className="card-body">
                   <div className="text-center py-3 development_card">
                     <Image
-                        width="80px"
+                      width="80px"
                       height="80px"
                       src="https://img.icons8.com/external-parzival-1997-flat-parzival-1997/64/000000/external-crm-digital-transformation-parzival-1997-flat-parzival-1997.png"
                       alt=""
@@ -226,7 +250,7 @@ const IosAppDevelopment = () => {
                 <div className="card-body">
                   <div className="text-center py-3 development_card">
                     <Image
-                       width="80px"
+                      width="80px"
                       height="80px"
                       src="/images/icon/icons8-mobile-order-48.png"
                       className=""
@@ -450,7 +474,11 @@ const IosAppDevelopment = () => {
                 <div className="language_text text-center">
                   <h1>
                     <span className="mycolor">Technology Stack</span>
-                    <br /> <span className="border-bottom"> We Use </span>
+                    <br />{" "}
+                    <span className="bottom_Textline_center position-relative">
+                      {" "}
+                      We Use{" "}
+                    </span>
                   </h1>
                   <p className="mt-4">
                     We pair your mobile apps with the ideal technologies to
@@ -482,7 +510,6 @@ const IosAppDevelopment = () => {
                         src="sdf"
                         alt="react js"
                       /> */}
-
                       icon
                       <p className="card-text">Php</p>
                     </div>
@@ -590,6 +617,9 @@ const IosAppDevelopment = () => {
           </div>
         </div>
       </div>
+
+      <IndustriesWeServe/>
+      <ProcessWeFollow />
     </>
   );
 };

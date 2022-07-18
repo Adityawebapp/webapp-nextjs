@@ -1,22 +1,22 @@
 import React from "react";
 
-const Step3 = () => {
+const Step3 = ({formData,setFormData}) => {
   return (
     <div>
-    <div className="d-flex align-content-center justify-content-center">
+    <div className="d-flex ">
     <div className="w-100">
       <form>
         <div className="mb-3">
-          <label htmlFor="exampleInputEmail1" className="form-label">
+          <label htmlFor="name" className="form-label">
             Name
           </label>
           <input
             type="text"
             placeholder="Enter your name"
             className="form-control"
-            id="exampleInputEmail1"
-            aria-describedby="emailHelp"
-          />
+            id="name"
+            value={formData.name}
+            onChange={(event)=>setFormData({...formData,name:event.target.value})}/>
         
         </div>
       

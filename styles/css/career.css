@@ -5,7 +5,7 @@
 .career-main .right-image img {
   border-bottom-left-radius: 20rem;
   background-size: cover;
-  height: 80vh;
+  height: 90vh;
   width: 100%;
 }
 
@@ -14,12 +14,6 @@
   font-size: 4rem;
 }
 
-@media (min-width: 1300px) {
-  .container-fluid {
-    max-width: 1300px !important;
-    padding: 0;
-  }
-}
 
 /* ==== card section ============== */
 
@@ -35,7 +29,9 @@
 
 .career_card .top_text h1 {
   font-size: 2rem;
+  line-height: 1;
   font-weight: bolder;
+  color: #000000;
 }
 
 .svg-career-icon img {

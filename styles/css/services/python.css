@@ -264,11 +264,7 @@
   margin-bottom: 50px;
 }
 
-.title span {
-  font-size: 16px;
-  font-weight: 500;
-  color: #ec7323;
-}
+
 
 .title h2 {
   font-size: 34px;
@@ -382,19 +378,9 @@
 }
 
 /* =================== ======================================================================================================== */
-.top_text h1{
-  margin-bottom: 2.5rem;
-  font-size: 2.5rem;
-  font-weight: 700;
-  line-height: 1.2;
-}
 
-.top_text p{
-font-size: 1.2rem;
-}
-.top_text h1, .top_text p{
-   color: #fff;
-}
+
+
 .header_top {
   display: flex;
   align-items: center;
@@ -403,12 +389,6 @@ font-size: 1.2rem;
   width: 100%;
   background: transparent linear-gradient(143deg, #cc95c0 0%, #2474dd 100%) 0%
     0% no-repeat padding-box;
-}
-@media (min-width: 1300px) {
-  .container {
-    max-width: 1300px !important;
-    padding: 0;
-  }
 }
 
 .Development_on_demand .Development_on_demand_image {

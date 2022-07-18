@@ -7,7 +7,6 @@ const IndustriesWeServe = () => {
 
 <section>
   <div className="industory_we_serve py-5">
-
     <div className="industory-bg-icon">
       <img
         alt="industory"
@@ -38,19 +37,14 @@ const IndustriesWeServe = () => {
     <div className="container wow zoomIn "  >
       <div className="row justify-content-center">
         <h1>
-          <span
-            className="bottom_Textline_center position-relative"
-          
-          >
-            Industries We
-          </span>
-          Serve
+         <span className='mycolor'> Industries We </span>
+         <span  className="bottom_Textline_center position-relative"> Serve</span> 
         </h1>
-        <div className="col-lg-3 col-md-3 col-sm-12 padding-in-sm">
+        <div className="col-lg-3 col-md-3 col-9 padding-in-sm">
           <div className="Industries-content">
             <div className="shadow-box wearable rev">
               <div className="Industries-icon-left">
-                 icon
+                <img width="65%" src="/images/icon/industoryIcon/SocialNetworking.png" alt="" />
               </div>
               <h3 className="Industries-title">Social Networking</h3>
             </div>
@@ -59,7 +53,7 @@ const IndustriesWeServe = () => {
           <div className="Industries-content">
             <div className="shadow-box wearable rev">
               <div className="Industries-icon-left">
-               {/* svg icon   */}
+              <img width="65%" alt="" src="/images/icon/industoryIcon/RealEstate.png"/>
               </div>
               <h3 className="Industries-title">Real Estate</h3>
             </div>
@@ -68,7 +62,7 @@ const IndustriesWeServe = () => {
           <div href="game-development" className="Industries-content">
             <div className="shadow-box wearable rev">
               <div className="Industries-icon-left">
-               
+              <img width="65%" alt="" src="/images/icon/industoryIcon/Food&amp;Restaurant.png"/>
               </div>
               <h3 className="Industries-title">
                 Food & <br />
@@ -80,7 +74,7 @@ const IndustriesWeServe = () => {
           <div href="game-development" className="Industries-content">
             <div className="shadow-box wearable rev">
               <div className="Industries-icon-left">
-               
+              <img width="65%" alt="" src="/images/icon/industoryIcon/Logistics&amp;Distribution.png"/>
               </div>
               <h3 className="Industries-title">
                 Logistics & <br />
@@ -92,7 +86,7 @@ const IndustriesWeServe = () => {
           <a href="game-development" className="Industries-content">
             <div className="shadow-box wearable rev">
               <div className="Industries-icon-left">
-            
+              <img width="65%" alt="" src="/images/icon/industoryIcon/Travel&amp;Hospitality.png"/>
               </div>
               <h3 className="Industries-title">
                 Travel & <br />
@@ -107,7 +101,6 @@ const IndustriesWeServe = () => {
           <div className="sss industory_logo">
             <div>
               <img
-      
                 src="/images/webapp-logo.png"
                 alt="webapp-logo"
               />
@@ -123,11 +116,11 @@ const IndustriesWeServe = () => {
         </div>
         
 
-        <div className="col-lg-3 col-md-3 col-sm-12 padding-in-sm">
+        <div className="col-lg-3 col-md-3 col-9 padding-in-sm">
           <a href="game-development" className="Industries-content">
             <div className="shadow-box wearable rev">
               <div className="Industries-icon-right">
-               
+              <img  width="65%" alt="" src="/images/icon/industoryIcon/Education&amp;Learning.png"/>
               </div>
               <h3 className="Industries-title">
                 Education & <br />
@@ -139,7 +132,7 @@ const IndustriesWeServe = () => {
           <a href="game-development" className="Industries-content">
             <div className="shadow-box wearable rev">
               <div className="Industries-icon-right">
-  
+              <img width="65%"  alt="" src="/images/icon/industoryIcon/Retali&amp;E-Commerce.png"/>
               </div>
               <h3 className="Industries-title">
                 Retali & <br />
@@ -151,7 +144,8 @@ const IndustriesWeServe = () => {
           <a href="game-development" className="Industries-content">
             <div className="shadow-box wearable rev">
               <div className="Industries-icon-right">
-              
+             
+              <img width="65%" alt="" src="/images/icon/industoryIcon/Healthcare&amp;Fitness.png"/>
               </div>
               <h3 className="Industries-title">
                 Health & <br />
@@ -163,7 +157,7 @@ const IndustriesWeServe = () => {
           <a href="game-development" className="Industries-content">
             <div className="shadow-box wearable rev">
               <div className="Industries-icon-right">
-         
+              <img width="65%" alt="" src="/images/icon/industoryIcon/Finance.png"/>
               </div>
               <h3 className="Industries-title">Finance</h3>
             </div>
@@ -172,7 +166,7 @@ const IndustriesWeServe = () => {
           <a href="game-development" className="Industries-content">
             <div className="shadow-box wearable rev">
               <div className="Industries-icon-right">
-              
+              <img width="65%"  alt="" src="/images/icon/industoryIcon/Gaming.png"/>
               </div>
               <h3 className="Industries-title">Gaming</h3>
             </div>

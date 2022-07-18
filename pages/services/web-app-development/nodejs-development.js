@@ -1,15 +1,40 @@
 import Image from "next/image";
 import React from "react";
 import styles from './webapp-css/nodejs.module.css'
+import Head from 'next/head'
+import IndustriesWeServe from "../../../components/IndustriesWeServe";
+import ProcessWeFollow from "../../../components/ProcessWeFollow";
 
 const NodejsDevelopment = () => {
   return (
     <>
+
+<Head>
+        <title>Node JS Development service Provider |Webapp UK</title>
+        <meta
+          name="description"
+          content="Looking for a backend NodeJS Development Service Provider Company? Your search ends now as we offer a secure, scalable, & interactive user interface."
+        />
+        <meta
+          name="keywords"
+          content="Node JS Development Services,
+Node JS Development Company,
+Node JS Developers,
+Node JS Development Service Provider"
+        />
+
+<link
+          rel="canonical"
+          href="https://www.webapp.world/services/web-app-trends/nodejs-development/"
+        />
+      </Head>
+
+
       <div className="inner_page">
         <section className={styles.nodebg}>
           <div className="container">
             <div className="row flex-reverse">
-              <div className="col-md-6 col-sm-12 d-flex align-items-center">
+              <div className="col-md-6 col-sm-12 d-flex align-items-center text-white">
                 <div className="top_text">
                   <h1>Top Rated NodeJS Development Company</h1>
                   <p className="my-3">
@@ -257,6 +282,9 @@ const NodejsDevelopment = () => {
           </div>
         </div>
       </div>
+
+      <IndustriesWeServe/>
+      <ProcessWeFollow />
     </>
   );
 };

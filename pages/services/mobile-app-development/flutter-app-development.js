@@ -1,16 +1,42 @@
 import Image from "next/image";
+import Head from "next/head";
 import React from "react";
 import styles from './mobile-css/flutter.module.css'
+import IndustriesWeServe from "../../../components/IndustriesWeServe";
+import ProcessWeFollow from "../../../components/ProcessWeFollow";
 
 const flutterAppDevelopment = () => {
   return (
-    <div>
+
       <>
+
+<Head>
+        <title>Flutter Application Development Services | Webapp UK</title>
+        <meta
+          name="description"
+          content="The UK located Webapp a top flutter application development company offering the best services with a native app-like experience for clients around the world."
+        />
+        <meta
+          name="keywords"
+          content="Drag&Drop Flutter App Builder,
+Mobile App Development with Flutter,
+Flutter App Development,
+Flutter Developers, 
+Flutter app development company"
+        />
+
+        <link
+          rel="canonical"
+          href="https://www.webapp.world/services/mobile-app-trends/flutter-app-development/"
+        />
+      </Head>
+
+
         <div className="inner_page">
           <section  className={`${styles.flutterbg}`}>
             <div className="container">
               <div className="row flex-reverse">
-                <div className="col-md-5 col-sm-12 d-flex align-items-center">
+                <div className="col-md-5 col-sm-12 d-flex align-items-center text-white">
                   <div className="top_text">
                     <h1>Bespoke Flutter App Development Company</h1>
                     <p className="my-3">
@@ -116,7 +142,7 @@ const flutterAppDevelopment = () => {
                   <div className="language_text text-center">
                     <h1>
                       <span className="mycolor"> Technology Stack </span>
-                      <span className="border-bottom"> We Use </span>
+                      <span className="bottom_Textline_center position-relative"> We Use </span>
                     </h1>
                     <p className="mt-5">
                       We pair your mobile app(s) with the ideal technologies to
@@ -241,8 +267,11 @@ const flutterAppDevelopment = () => {
             </div>
           </div>
         </div>
+        
+      <IndustriesWeServe/>
+      <ProcessWeFollow />
       </>
-    </div>
+
   );
 };
 

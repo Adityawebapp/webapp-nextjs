@@ -9,7 +9,6 @@ const Web = () => {
     { id: 5, name: "Grocery Develivery" },
     { id: 6, name: "Laundery" },
     { id: 7, name: "Beauty" },
-
   ];
   const handleClick = (e) => {
     console.log("select value", e);

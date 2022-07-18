@@ -3,14 +3,43 @@ import React from "react";
 import IndustriesWeServe from "/components/IndustriesWeServe";
 import ProcessWeFollow from "/components/ProcessWeFollow";
 import styles from './webapp-css/reactjs.module.css'
+
+import { SiThemighty } from 'react-icons/si';
+import { FaConnectdevelop } from 'react-icons/fa';SiXdadevelopers
+import { SiXdadevelopers,SiCodesandbox } from 'react-icons/si';
+import { RiCodeBoxFill } from 'react-icons/ri';
+import { IoCodeDownloadOutline } from 'react-icons/io5';
+import { MdCodeOff } from 'react-icons/md';
+import Head from 'next/head'
+
+
 const ReactjsDevelopment = () => {
   return (
     <>
+      <Head>
+        <title>React JS Development Services | Webapp UK</title>
+        <meta
+          name="description"
+          content="We are  a renowned ReactJS development company offering services like react JavaScript framework and ReactJS application development for our prestige clients."
+        />
+        <meta
+          name="keywords"
+          content="React js development company,
+App development company,
+React Development Services,
+React JS Development Services"
+        />
+
+<link
+          rel="canonical"
+          href="https://www.webapp.world/services/web-app-trends/reactjs-app-development/"
+        />
+      </Head>
       <div className="inner_page">
         <section className={styles.reactbg}>
           <div className="container mt-5">
             <div className="row flex-reverse">
-              <div className="col-md-6 col-sm-12 d-flex align-items-center">
+              <div className="col-md-6 col-sm-12 d-flex align-items-center text-white">
                 <div className="top_text">
                   <h1>Best ReactJS Development Company</h1>
                   <p className="my-3">
@@ -64,7 +93,7 @@ const ReactjsDevelopment = () => {
               >
                 <h1 className="mb-5">
                   <span className="mycolor"> Development on </span>
-                  <span className="border-bottom">Demand</span>
+                  <span className="bottom_Textline_center position-relative">Demand</span>
                 </h1>
                 <p>
                   ReactJS is a popular, reliable, and solid choice for companies
@@ -98,7 +127,7 @@ const ReactjsDevelopment = () => {
         <div className="container development_section py-6">
           <h1 className="text-center mt-5">
             <span className="mycolor"> Products That Are Built on </span>
-            <span className="border-bottom"> ReactJS</span>
+            <span className="bottom_Textline_center position-relative"> ReactJS</span>
           </h1>
 
           <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-3 my-5">
@@ -211,7 +240,7 @@ const ReactjsDevelopment = () => {
         <div className="container my-6 reactjs_text_container">
           <h1 className="text-center mb-4">
             <span className="mycolor"> Why Choose</span>
-            <span className="border-bottom"> ReactJS? </span>
+            <span className="bottom_Textline_center position-relative"> ReactJS? </span>
           </h1>
           <p>
             ReactJS, an app development company, is a stronger framework because
@@ -222,7 +251,7 @@ const ReactjsDevelopment = () => {
           <div className="text-center mb-2">
             <h1 className="pt-4">
               <span className="mycolor"> Helps to build rich </span>
-              <span className="border-bottom"> user interfaces </span>
+              <span className="bottom_Textline_center position-relative"> user interfaces </span>
             </h1>
           </div>
           <p className="text-center mt-4">
@@ -359,7 +388,7 @@ const ReactjsDevelopment = () => {
                 <span className="mycolor">
                   React JS Development Services that
                 </span>
-                <span className="border-bottom"> we bring to you </span>
+                <span className="bottom_Textline_center position-relative"> we bring to you </span>
               </h1>
               <p className="mt-5">
                 Why should you hire <b>Webapp</b>? Will ReactJS be beneficial
@@ -375,7 +404,7 @@ const ReactjsDevelopment = () => {
                 <div className="col-lg-6 col-md-6 col-sm-12 col-12">
                   <div className="web-why-choose-us-inner-box mhbox shadow">
                     <div className="web-why-choose-inner-icon shadow">
-                      <i className="bi bi-file-earmark-code"></i>
+                     <SiCodesandbox size={50}/>
                     </div>
                     <h2>Custom ReactJS Development Services</h2>
                     <p>
@@ -392,7 +421,10 @@ const ReactjsDevelopment = () => {
                   data-aos="zoom-out-right"
                 >
                   <div className="web-why-choose-us-inner-box mhbox shadow">
-                    <div className="web-why-choose-inner-icon shadow">icon</div>
+                    <div className="web-why-choose-inner-icon shadow">
+                     <SiThemighty size={50}/>
+
+                    </div>
                     <h2>ReactJS Migration</h2>
                     <p>
                       We help companies to migrate seamlessly to the ReactJS
@@ -407,7 +439,9 @@ const ReactjsDevelopment = () => {
                   data-aos="zoom-out-left"
                 >
                   <div className="web-why-choose-us-inner-box mhbox shadow">
-                    <div className="web-why-choose-inner-icon shadow">icon</div>
+                    <div className="web-why-choose-inner-icon shadow">
+                      <FaConnectdevelop size={50} />
+                    </div>
                     <h2>ReactJS Mobile App Development</h2>
                     <p>
                       We offer ReactJS development services for developing
@@ -423,7 +457,9 @@ const ReactjsDevelopment = () => {
                   data-aos="zoom-out-right"
                 >
                   <div className="web-why-choose-us-inner-box mhbox shadow">
-                    <div className="web-why-choose-inner-icon shadow">icon</div>
+                    <div className="web-why-choose-inner-icon shadow">
+                      <SiXdadevelopers size={50}/>
+                    </div>
                     <h2>ReactJS Web Application Development</h2>
                     <p>
                       We provide highly scalable, SEO-friendly, and efficient
@@ -438,7 +474,9 @@ const ReactjsDevelopment = () => {
                   data-aos="zoom-out-left"
                 >
                   <div className="web-why-choose-us-inner-box mhbox shadow">
-                    <div className="web-why-choose-inner-icon shadow">icon</div>
+                    <div className="web-why-choose-inner-icon shadow">
+                      <RiCodeBoxFill size={50}/>
+                    </div>
                     <h2>Enterprise ReactJS Development</h2>
                     <p>
                       We have experienced ReactJS developers who provide ReactJS
@@ -453,7 +491,10 @@ const ReactjsDevelopment = () => {
                   data-aos="zoom-out-right"
                 >
                   <div className="web-why-choose-us-inner-box mhbox shadow">
-                    <div className="web-why-choose-inner-icon shadow">icon</div>
+                    <div className="web-why-choose-inner-icon shadow">
+                    <IoCodeDownloadOutline size={50}/>
+
+                    </div>
                     <h2>ReactJS Integration with Existing application</h2>
                     <p>
                       ReactJS empowers businesses by integrating with existing
@@ -472,7 +513,10 @@ const ReactjsDevelopment = () => {
                 data-aos="zoom-out-left"
               >
                 <div className="web-why-choose-us-inner-box mhbox shadow">
-                  <div className="web-why-choose-inner-icon shadow">icon</div>
+                  <div className="web-why-choose-inner-icon shadow">
+                  <MdCodeOff size={50}/>
+
+                  </div>
                   <h2>Interactive ReactJS UI Development</h2>
                   <p>
                     React development services help in building interactive and

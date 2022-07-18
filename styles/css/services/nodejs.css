@@ -283,11 +283,6 @@ picture img {
     margin-bottom: 50px;
 }
 
-.title span {
-    font-size  : 16px;
-    font-weight: 500;
-    color      : #ec7323;
-}
 
 .title h2 {
     font-size  : 34px;
@@ -396,19 +391,6 @@ picture img {
 
 /* =================== ======================================================================================================== */
 
-.top_text h1{
-    margin-bottom: 2.5rem;
-    font-size: 2.5rem;
-    font-weight: 700;
-    line-height: 1.2;
-}
-
-.top_text p{
-  font-size: 1.2rem;
-}
-.top_text h1, .top_text p{
-     color: #fff;
-}
 
 
   .header_top{
@@ -422,12 +404,6 @@ picture img {
   }
 
 
-  @media (min-width: 1300px){
-    .container {
-        max-width: 1300px!important;
-        padding: 0;
-    }
-}
 
 .Development_on_demand .Development_on_demand_image {
     border-radius: 61% 39% 32% 68% / 61% 64% 36% 39%;

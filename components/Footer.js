@@ -1,19 +1,19 @@
 /* eslint-disable @next/next/no-img-element */
+
 import axios from "axios";
-import React from "react";
 import { useForm } from "react-hook-form";
 import { FiSend } from "react-icons/fi";
 import { AiOutlineInstagram, AiOutlineTwitter } from "react-icons/ai";
 import { FaLinkedinIn, FaFacebookF } from "react-icons/fa";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { BsFillTelephoneForwardFill } from 'react-icons/bs';
-
+import { BsFillTelephoneForwardFill } from "react-icons/bs";
+import { HiMailOpen } from "react-icons/hi";
+import Link from "next/link";
 const Footer = () => {
   const {
     register,
     handleSubmit,
-    watch,
     reset,
     formState: { errors },
   } = useForm();
@@ -24,7 +24,7 @@ const Footer = () => {
     axios
       .post("https://api.webapp.world/userMail", { data })
       .then((res) => {
-        toast.success('mail submit successfully', {
+        toast.success("mail submit successfully", {
           position: "top-center",
           autoClose: 5000,
           hideProgressBar: false,
@@ -32,13 +32,12 @@ const Footer = () => {
           pauseOnHover: true,
           draggable: true,
           progress: undefined,
-          });
-          reset()
-        
+        });
+        reset();
       })
       .catch((err) => {
         console.log(err);
-        toast.error('🦄 Wow so easy!', {
+        toast.error("🦄 Wow so easy!", {
           position: "top-center",
           autoClose: 5000,
           hideProgressBar: false,
@@ -46,9 +45,8 @@ const Footer = () => {
           pauseOnHover: true,
           draggable: true,
           progress: undefined,
-          });
-          reset()
-
+        });
+        reset();
       });
   };
 
@@ -83,8 +81,7 @@ const Footer = () => {
 
                 <div className="row  justify-content-center mt-4">
                   <div className="col-lg-2 col-md-2 col-sm-0 d-flex align-items-center">
-                   <BsFillTelephoneForwardFill size={30} color="#ae0000"/>
-                  
+                    <BsFillTelephoneForwardFill size={30} color="#ae0000" />
                   </div>
                   <div className="col-lg-8 col-md-8  col-sm-4">
                     <p className=" text-white mt-2">
@@ -98,14 +95,11 @@ const Footer = () => {
 
                 <div className="row justify-content-center mt-4">
                   <div className="col-lg-2 col-md-2  col-sm-0  d-flex align-items-center">
-                    <i className="bi bi-envelope text-danger"></i>
+                    <HiMailOpen size={30} color="#ae0000" />
                   </div>
-                  <div className="col-lg-8 col-md-8  col-sm-4">
-                    <p className=" text-white">
-                      <span className="ml-2 number">
-  
-                        projects@webapp.world
-                      </span>
+                  <div className="col-lg-8 col-md-8 col-sm-4">
+                    <p className=" text-white m-0">
+                      <span className="ml-2 number">projects@webapp.world</span>
                     </p>
                   </div>
                 </div>
@@ -119,32 +113,48 @@ const Footer = () => {
                 </h6>
                 <ul className="list-unstyled list_link">
                   <li className="mb-2">
-                    <a href="'/company/about'">Who We Are? </a>
+                    <Link href="/company/WhoWeAre">
+                      <a>Who We Are? </a>
+                    </Link>
                   </li>
                   <li className="mb-2">
-                    <a href="'/company/career'">Career </a>
-                  </li>
-
-                  <li className="mb-2">
-                    <a href="'/sitemap'">Sitemap </a>
-                  </li>
-
-                  <li className="mb-2">
-                    <a href="'/projects'">Projects </a>
+                    <Link href="/company/career">
+                      <a>Career </a>
+                    </Link>
                   </li>
 
                   <li className="mb-2">
-                    <a href="'/contacts'">Contact Us</a>
+                    <Link href="/sitemap">
+                      <a>Sitemap </a>
+                    </Link>
                   </li>
 
                   <li className="mb-2">
-                    <a href="'#'">Sitemap</a>
+                    <Link href="/projects">
+                      <a>Projects </a>
+                    </Link>
+                  </li>
+
+                  <li className="mb-2">
+                    <Link href="/contact">
+                      <a>Contact Us</a>
+                    </Link>
+                  </li>
+
+                  <li className="mb-2">
+                    <Link href="/sitemap">
+                      <a>Sitemap</a>
+                    </Link>
                   </li>
                   <li className="mb-2">
-                    <a href="'/privacy-policy'">Privacy policy</a>
+                    <Link href="/privacy-policy">
+                      <a>Privacy policy</a>
+                    </Link>
                   </li>
                   <li className="mb-2">
-                    <a href="'/term-condition'">Terms & Conditions </a>
+                    <Link href="/terms-conditions">
+                      <a>Terms & Conditions </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -157,19 +167,29 @@ const Footer = () => {
                 </h6>
 
                 <li className="mb-2">
-                  <a href="'/mobile-app-development'">Mobile Development </a>
+                  <Link href="/terms-conditions">
+                    <a>Mobile Development </a>
+                  </Link>
                 </li>
                 <li className="mb-2">
-                  <a href="'/web-app-development'">Web Development</a>
+                  <Link href="/terms-conditions">
+                    <a>Web Development</a>
+                  </Link>
                 </li>
                 <li className="mb-2">
-                  <a href="'/game-app-development'">Game Development</a>
+                  <Link href="/terms-conditions">
+                    <a>Game Development</a>
+                  </Link>
                 </li>
                 <li className="mb-2">
-                  <a>Latest Technologies </a>
+                  <Link href="/terms-conditions">
+                    <a>Latest Technologies </a>
+                  </Link>
                 </li>
                 <li className="mb-2">
-                  <a>User Experience </a>
+                  <Link href="/terms-conditions">
+                    <a>User Experience </a>
+                  </Link>
                 </li>
               </div>
 
@@ -270,7 +290,7 @@ const Footer = () => {
                   Stay connected with our latest insights
                 </p>
                 <div className="rounded border subscribe-form">
-                  <form  onSubmit={handleSubmit(onSubmit)}>
+                  <form onSubmit={handleSubmit(onSubmit)}>
                     <input
                       type="email"
                       placeholder="Email Address"
@@ -291,6 +311,7 @@ const Footer = () => {
               <div className="col-md-3 col-lg-4 d-flex  mx-auto mb-4 text-white footer_icon_badge">
                 <div className="d-flex">
                   <img
+                    style={{ marginRight: "3rem" }}
                     width="50%"
                     height="50%"
                     src="/images/footer/badge1.png"
@@ -312,28 +333,28 @@ const Footer = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <AiOutlineInstagram size={30} />
+                    <AiOutlineInstagram className="bi fa-instagram"  />
                   </a>
                   <a
                     href="https://www.facebook.com/Webapp.world/"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <FaFacebookF size={25} />
+                    <FaFacebookF className="bi bi-facebook "  />
                   </a>
                   <a
                     href="https://twitter.com/WebappWorld"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <AiOutlineTwitter size={30} />
+                    <AiOutlineTwitter className="bi fa-twitter"  />
                   </a>
                   <a
                     href="https://www.linkedin.com/company/webapp-world?trk=organization-update_share-update_actor-text"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <FaLinkedinIn size={30} />
+                    <FaLinkedinIn  className="bi fa-linkedin-in"  />
                   </a>
                 </div>
               </div>

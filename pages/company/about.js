@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -5,29 +6,29 @@ import Slider from "react-slick";
 
 import OurTeam from "/Helper/Team";
 import Head from "next/head";
+import { BsArrowRightCircle } from "react-icons/bs";
 
-const WhoWeAre = () => {
-  var settings = {
+const About = () => {
+  var whoweAre = {
     dots: false,
     infinite: true,
     slidesToShow: 5,
     autoplay: true,
     speed: 10000,
     autoplaySpeed: 2000,
-    cssEase: "linear",
     pauseOnHover: false,
     arrows: false,
     responsive: [
       {
         breakpoint: 1024,
-        settings: {
+        whoweAre: {
           slidesToShow: 3,
           slidesToScroll: 3,
         },
       },
       {
         breakpoint: 600,
-        settings: {
+        whoweAre: {
           slidesToShow: 2,
           slidesToScroll: 2,
           initialSlide: 2,
@@ -35,7 +36,7 @@ const WhoWeAre = () => {
       },
       {
         breakpoint: 480,
-        settings: {
+        whoweAre: {
           slidesToShow: 1,
           slidesToScroll: 1,
         },
@@ -77,17 +78,8 @@ Webapp is one of the top trusted Software development company in the UK which is
         </div>
       </div>
 
-      <div className="container-fluid">
+      <div className="container">
         <div className="career_card my-5">
-          <div className="text-center top_text">
-            <h2>Perks To Work With Webapp</h2>
-            <p className="my-5">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              <br />
-              Eum qui quis distinctio ipsam non repellendus a praesentium maxime
-              assumenda corrupti.
-            </p>
-          </div>
           <div className="row row-cols-1 row-cols-md-3 g-5">
             <div className="col main_card_div">
               <div className="card card_main_page shadow">
@@ -164,9 +156,9 @@ Webapp is one of the top trusted Software development company in the UK which is
       </div>
 
       <section className="about_main">
-        <div className="container-fluid py-5">
+        <div className="container py-5">
           <div className="who_we_are text-center">
-            <h2 className="mb-5 fw-bold"> Who we are </h2>
+            <h2 className="mb-5 fw-bold"> <span className="bottom_Textline_center position-relative "> Who we are</span>    </h2>
           </div>
 
           <div className="row">
@@ -215,9 +207,9 @@ Webapp is one of the top trusted Software development company in the UK which is
             </div>
 
             <div className="col-md-6 d-flex justify-content-center align-items-center  ">
-              <Image
-                width={1000}
-                height={1000}
+              <img
+                width="100%"
+                height="atuo"
                 src="/images/about/who_we_are.png"
                 alt="software development companies uk"
               />
@@ -227,7 +219,7 @@ Webapp is one of the top trusted Software development company in the UK which is
       </section>
 
       <div className="leadership_section">
-        <div className="container-fluid">
+        <div className="container">
           <div className="career_card my-5">
             <div className="text-center top_text my-5 Leadership_heading">
               <h1>
@@ -241,9 +233,8 @@ Webapp is one of the top trusted Software development company in the UK which is
                 <div className="leadership_section_bgcolor">
                   <div className="card shadow position-relative">
                     <div className="">
-                      <Image
-                        width={1000}
-                        height={1300}
+                      <img
+                      
                         src="/images/servies/pagesImage/dheeraj.png"
                         className="card-img-top"
                         alt="Dheeraj Chauhan"
@@ -261,11 +252,10 @@ Webapp is one of the top trusted Software development company in the UK which is
                 <div className="leadership_section_bgcolor">
                   <div className="card shadow position-relative">
                     <div className="">
-                      <Image
-                        width={1000}
-                        height={1300}
+                      <img
+                       className="img-fluid"
                         src="/images/servies/pagesImage/upender.png"
-                        className="card-img-top"
+                 
                         alt="Upender Rawat"
                       />
                     </div>
@@ -290,25 +280,24 @@ Webapp is one of the top trusted Software development company in the UK which is
           </h1>
         </div>
 
-        <div className="container-fluid bg_shapAdd">
+        <div className="container bg_shapAdd">
           <div className="">
             <div className="teamSlider">
               <div className="card shadow overflow-hidden">
-                <Slider {...settings}>
+                <Slider {...whoweAre}>
                   {OurTeam.map((e, index) => {
                     console.log(e.image);
                     return (
                       <>
                         <div key={index}>
-                          <Image
+                          <img
                             src={e.image}
                             alt="team"
-                            width={1000}
-                            height={1100}
+                            className="img-fluid"
                           />
 
                           <div className="text-center shadowcard">
-                            <h5 className="py-2 fw-bold">{e.name}</h5>
+                            <h5 className="fw-bold" style={{fontSize:"18px"}}>{e.name}</h5>
                             <p>{e.work}</p>
                           </div>
                         </div>
@@ -320,25 +309,20 @@ Webapp is one of the top trusted Software development company in the UK which is
             </div>
           </div>
 
-          <div className="text-center shadowcard">
-            <h5 className="py-2 fw-bold"> </h5>
-            <p> </p>
-          </div>
+ 
         </div>
       </div>
       <div className="join_us">
         <div className="container py-5">
           <div className="text-center">
-            <h3>
+            <h3 className="text-capitalize">
               We are open to expanding our team of young and enthusiastic
               people.
             </h3>
             <div className="join_us_button my-4">
-              <button type="button" className="btn px-4">
-                <a>
-                  <i className="bi bi-arrow-right-circle"></i>
-                </a>
-                Join Us
+              <button type="button" className="btn px-4 ">
+                <BsArrowRightCircle className="mb-1" />
+                <span> Join Us </span>
               </button>
             </div>
           </div>
@@ -348,4 +332,4 @@ Webapp is one of the top trusted Software development company in the UK which is
   );
 };
 
-export default WhoWeAre;
+export default About;

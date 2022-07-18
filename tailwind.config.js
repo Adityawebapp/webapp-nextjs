@@ -5,11 +5,17 @@ module.exports = {
   ],
   theme: {
     extend: {
-        height: {
-          '85': '85vh',
-        }
-
+      height: {
+        85: "85vh",
+      },
+      
     },
+    container: {
+      center: true,
+    },
+    
+   
   },
+  
   plugins: [],
-}
+};

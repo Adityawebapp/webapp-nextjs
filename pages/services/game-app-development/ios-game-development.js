@@ -1,11 +1,34 @@
 import Image from "next/image";
 import React from "react";
-import styles from './game-css/ios.module.css'
-
+import Head from "next/head";
+import styles from "./game-css/ios.module.css";
+import IndustriesWeServe from "../../../components/IndustriesWeServe";
+import ProcessWeFollow from "../../../components/ProcessWeFollow";
 
 const IosGameDevelopment = () => {
   return (
     <>
+      <Head>
+        <title>IOS Game Develpment Company | Webapp UK</title>
+        <meta
+          name="description"
+          content="We are a top iOS game development company in the UK with highly experienced game developers who create exciting & engaging 2D/3D game apps for iPhone and iPad."
+        />
+        <meta
+          name="keywords"
+          content="IOS Game Development Company UK,
+Ios game development framework,
+android ios game development,
+IOS Game Development,
+Apple ios game development,
+Ios and android game development"
+        />
+        <link
+          rel="canonical"
+          href="https://www.webapp.world/services/mobile-app-development/ios-app-development/"
+        />
+      </Head>
+
       <div className="inner_page">
         <section className={styles.iosgamebg}>
           <div className="container">
@@ -51,7 +74,7 @@ const IosGameDevelopment = () => {
                 data-aos="fade-left"
               >
                 <h1 className="mb-5 ">
-                  <span className="mycolor">iOS Game Development</span>
+                  <span className="mycolor">iOS Game Development </span>
                   <span className="bottom_Textline_center position-relative">
                     Company
                   </span>
@@ -87,8 +110,8 @@ const IosGameDevelopment = () => {
           </div>
         </div>
 
-        <div className="container  my-6 ">
-          <h1 className="text-center">
+        <div className="container  my-5 ">
+          <h1 className="text-center mb-5">
             <span className="mycolor"> Our Suite of iOS Games </span>
             <span className="bottom_Textline_center position-relative">
               Development Services
@@ -468,6 +491,9 @@ const IosGameDevelopment = () => {
           </div>
         </div>
       </div>
+
+      <IndustriesWeServe/>
+      <ProcessWeFollow />
     </>
   );
 };

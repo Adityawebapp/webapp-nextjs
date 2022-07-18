@@ -1,11 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import Application from "./buttonPages/Application";
 import Digital from "./buttonPages/Digital";
 import Game from "./buttonPages/Game";
 import Graphic from "./buttonPages/Graphic";
 import Web from "./buttonPages/Web";
 
-const Step1 = () => {
+const Step1 = ({ formData, setFormData }) => {
+  const [state, setState] = useState("Graphic Design");
+
   const Fooddata = [
     { id: 1, name: "Graphic Design" },
     { id: 2, name: "App Development" },
@@ -14,33 +16,57 @@ const Step1 = () => {
     { id: 5, name: "Digital Development" },
     { id: 6, name: "Other" },
   ];
-  const handleClick = (e) => {
-    console.log(e);
-    if (e === "Graphic Design") {
-      <Application />;
+
+  const pageDisplay = () => {
+    if (Fooddata == 0) {
+      return <Step1 />;
+    } else if (Fooddata == 1) {
+      return <Application />;
+    } else if (Fooddata == 2) {
+      return <Digital />;
+    } else if (Fooddata == 3) {
+      return <Game />;
+    } else if (Fooddata == 4) {
+      return <Web />;
     }
+  };
+
+  const handleClick = (data) => {
+    console.log(data);
+
+    setState(true  );
   };
 
   return (
     <>
-      <h1 className="text-center "> get quote</h1>
+    
+     
+          <h1 className="text-center "> get quote</h1>
 
-      <div className="quoteForm d-flex justify-content-center ">
-        <div className="w-100">
-          <div className="row row-cols-2 g-3 justify-content-center  ">
-            {Fooddata.map((item) => (
-              <div className="col" key={item.id}>
-                <button
-                  className="btn btn-info w-75"
-                  onClick={() => handleClick(item.name)}
-                >
-                  {item.name}
-                </button>
+          <div className="quoteForm d-flex justify-content-center justify-content-center ">
+            <div className="w-100">
+              <div className="row row-cols-2 g-3 justify-content-center">
+                {Fooddata.map((item) => (
+                  <div className="col" key={item.id}>
+                    <button
+                      className="btn btn-info w-75"
+                      onClick={() => handleClick(item.name)}
+                    >
+                      {item.name}
+                    </button>
+                  </div>
+                ))}
               </div>
-            ))}
+            </div>
           </div>
-        </div>
-      </div>
+    
+      
+   
+       
+    
+  
+
+   
     </>
   );
 };

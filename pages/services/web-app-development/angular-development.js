@@ -1,20 +1,52 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import React from "react";
 import styles from './webapp-css/angular.module.css'
+import { GrInsecure } from 'react-icons/gr';
+import { MdOutlineFeaturedVideo,MdOutlineDesignServices } from 'react-icons/md';
+import { BsJournalCode } from 'react-icons/bs';
+import { FcMultipleDevices } from 'react-icons/fc';
+import { GiScales } from 'react-icons/gi';
+import Head from 'next/head'
+import IndustriesWeServe from "../../../components/IndustriesWeServe";
+import ProcessWeFollow from "../../../components/ProcessWeFollow";
+
 
 const AngularDevelopment = () => {
   return (
     <>
+
+<Head>
+        <title>Android App Development Services | Webapp UK UK</title>
+        <meta
+          name="description"
+          content="App Developers In Webapp provides Android App development services which help in building custom Android applications that help businesses grow."
+        />
+        <meta
+          name="keywords"
+          content="Ios and android app development,
+Android app development software,
+Android app development tools,
+App development services uk"
+        />
+
+        <link
+          rel="canonical"
+          href="https://www.webapp.world/services/web-app-trends/angular-app-development/"
+        />
+      </Head>
+
+
       <div className="inner_page">
         <section className={styles.angularbg}>
           <div className="container">
             <div className="row flex-reverse">
-              <div className="col-md-6 col-sm-12 d-flex align-items-center">
+              <div className="col-md-6 col-sm-12 d-flex align-items-center text-white">
                 <div className="top_text">
                   <h1>
-                    {" "}
+                    
                     Build awesome UI with the best team of Angular web
-                    development experts!{" "}
+                    development experts!
                   </h1>
 
                   <p className="my-3">
@@ -65,10 +97,10 @@ const AngularDevelopment = () => {
               </div>
               <div className="col-md-6 right_text " data-aos="zoom-in-left">
                 <h1 className="mb-5 ">
-                  <span className="mycolor">Development on </span>{" "}
+                  <span className="mycolor">Development on </span>
                   <span className="bottom_Textline_center position-relative">
-                    {" "}
-                    Demand{" "}
+               
+                    Demand
                   </span>
                 </h1>
                 <p>
@@ -77,10 +109,10 @@ const AngularDevelopment = () => {
                   from open-source web development frameworks, it is sometimes
                   difficult to tell whether the applications only scratch the
                   surface of the powerful possibilities of the framework. This
-                  is where{" "}
+                  is where
                   <b>
-                    <b>Webapp</b>{" "}
-                  </b>{" "}
+                    <b>Webapp</b>
+                  </b>
                   helps clients to fully leverage the benefits of the flexible
                   and versatile features of the versatile Angular JS. With
                   hundreds of hours of expertise on complex projects, our
@@ -88,10 +120,10 @@ const AngularDevelopment = () => {
                   deliverables.
                 </p>
                 <p className="mt-2">
-                  As an excellent Angular Development Company,{" "}
+                  As an excellent Angular Development Company,
                   <b>
-                    <b>Webapp</b>{" "}
-                  </b>{" "}
+                    <b>Webapp</b>
+                  </b>
                   has an extremely proficient and experienced team with years of
                   experience specialising in Angular JS mobile app development.
                 </p>
@@ -112,18 +144,18 @@ const AngularDevelopment = () => {
           </div>
         </div>
 
-        <div className="why_choose_angular py-6">
+        <div className="why_choose_angular my-5">
           <div className="container">
             <div className="row align-items-center">
               <div
                 className="col-lg-8 col-sm-12 col-md-8 right_text main_heading"
                 data-aos="zoom-in-right"
               >
-                <h1 className="mb-5 ">
-                  <span className="mycolor"> Why Choose </span>{" "}
+                <h1 className="my-5 ">
+                  <span className="mycolor"> Why Choose </span>
                   <span className="bottom_Textline_center position-relative">
-                    {" "}
-                    Angular?{" "}
+                    
+                    Angular?
                   </span>
                 </h1>
                 <p>
@@ -138,12 +170,12 @@ const AngularDevelopment = () => {
               </div>
 
               <div className="col-lg-4 col-sm-12" data-aos="zoom-in-left">
-                {/* <Image
+                <img
                   width="100%"
                   height="100%"
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png"
+                  src="/images/icon/angular.png"
                   alt="ngular_full_color_logo"
-                /> */}
+                />
               </div>
             </div>
           </div>
@@ -153,8 +185,8 @@ const AngularDevelopment = () => {
           <h1 className="text-center mt-5  fw-bolder">
             <span className="mycolor">Key benefits of Angular for </span>
             <span className="bottom_Textline_center position-relative">
-              {" "}
-              front-end development{" "}
+              
+              front-end development
             </span>
           </h1>
           <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-3 my-5">
@@ -214,7 +246,7 @@ const AngularDevelopment = () => {
                     <p className="card-text">
                       Real-time web apps such as instant messenger, chat apps,
                       and cloud solutions made with Angular JS Fire and
-                      Socket.Io.{" "}
+                      Socket.Io.
                     </p>
                   </div>
                 </div>
@@ -285,12 +317,12 @@ const AngularDevelopment = () => {
           </div>
         </div>
 
-        <section className="  web-why-choose-us-inner bg-light py-6">
+        <section className="  web-why-choose-us-inner bg-light py-5">
           <div className="container">
             <div className="title ">
               <h1 className="">
                 <span className="mycolor">
-                  Angular Development Services that{" "}
+                  Angular Development Services that
                 </span>
                 <span className=""> we bring to you </span>
               </h1>
@@ -309,7 +341,7 @@ const AngularDevelopment = () => {
                 >
                   <div className="web-why-choose-us-inner-box mhbox shadow">
                     <div className="web-why-choose-inner-icon shadow">
-                      <i className="bi bi-file-earmark-code"></i>
+                    <GrInsecure/>
                     </div>
                     <h5>Secure Solutions</h5>
                     <p>
@@ -325,7 +357,7 @@ const AngularDevelopment = () => {
                 >
                   <div className="web-why-choose-us-inner-box mhbox shadow">
                     <div className="web-why-choose-inner-icon shadow">
-                     icon
+                     <MdOutlineFeaturedVideo/>
                     </div>
                     <h5>Features And Functionalities</h5>
                     <p>
@@ -340,7 +372,7 @@ const AngularDevelopment = () => {
                 >
                   <div className="web-why-choose-us-inner-box mhbox shadow">
                     <div className="web-why-choose-inner-icon shadow">
-                      icon
+                      <BsJournalCode/>
                     </div>
                     <h5>Coding With Reusable Components</h5>
                     <p>
@@ -356,7 +388,7 @@ const AngularDevelopment = () => {
                 >
                   <div className="web-why-choose-us-inner-box mhbox shadow">
                     <div className="web-why-choose-inner-icon shadow">
-                      icon
+                      <MdOutlineDesignServices/>
                     </div>
                     <h5>Seamless User Experience</h5>
                     <p>
@@ -372,7 +404,7 @@ const AngularDevelopment = () => {
                 >
                   <div className="web-why-choose-us-inner-box mhbox shadow">
                     <div className="web-why-choose-inner-icon shadow">
-                        icon
+                        <FcMultipleDevices/>
                     </div>
                     <h5>Multi-Platform Support</h5>
                     <p>
@@ -388,7 +420,7 @@ const AngularDevelopment = () => {
                 >
                   <div className="web-why-choose-us-inner-box mhbox shadow">
                     <div className="web-why-choose-inner-icon shadow">
-                        icon
+                        <GiScales/>
                     </div>
                     <h5>Scalability</h5>
                     <p>
@@ -403,6 +435,9 @@ const AngularDevelopment = () => {
           </div>
         </section>
       </div>
+
+      <IndustriesWeServe/>
+      <ProcessWeFollow />
     </>
   );
 };

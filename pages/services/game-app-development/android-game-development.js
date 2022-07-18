@@ -1,16 +1,34 @@
 import Head from "next/head";
 import Image from "next/image";
 import React from "react";
-import styles from './game-css/android.module.css'
+import IndustriesWeServe from "../../../components/IndustriesWeServe";
+import ProcessWeFollow from "../../../components/ProcessWeFollow";
+import styles from "./game-css/android.module.css";
 
+import { AiOutlineCodeSandbox,AiOutlineCode,AiOutlineCodepen, } from 'react-icons/ai';
+import {BsCodeSlash,BsCodeSquare,BsCode,BsFileCode,BsFileEarmarkCode } from 'react-icons/bs';
+import {FaLaptopCode } from 'react-icons/fa';
 
 const AndroidGameDevelopment = () => {
   return (
     <>
-    <Head>
-      <title>android dev</title>
+      <Head>
+        <link rel="shortcut icon" href="/fevIcon.png" />
 
-    </Head>
+        <title> Android Game Development Company | Webapp UK </title>
+        <meta
+          name="description"
+          content="We are the top-notch Android Game Development Company in the UK with experienced mobile game developers who develop 2D/3D games for android."
+        />
+        <meta
+          name="keywords"
+          content="Android game development software,Android game development Company,Android Game Development,Android Game Development Company in UK,Best Mobile App Developers"
+        />
+        <link
+          rel="canonical"
+          href="https://www.webapp.world/services/mobile-app-development/andriod-app-development/"
+        />
+      </Head>
 
       <div className="inner_page">
         <section className={styles.androidgamebg}>
@@ -22,7 +40,7 @@ const AndroidGameDevelopment = () => {
 
                   <div className="my_button mt-5">
                     <a>
-                      <button className="close">Let’s Discuss Your Idea</button>{" "}
+                      <button className="close">Let’s Discuss Your Idea</button>
                     </a>
                   </div>
                 </div>
@@ -31,26 +49,21 @@ const AndroidGameDevelopment = () => {
           </div>
         </section>
 
-        <div className=" Development_Company py-6">
+        <div className=" Development_Company py-5">
           <div className="container">
             <div className="row align-items-center">
               <div className="col-lg-5  col-sm-12 header-img1">
                 <Image
-                  height="80%"
-                  width="80%"
+                  width={800}
+                  height={1000}
                   src="/images/servies/pagesImage/Android-game-development-Company.png"
                   alt="Android game development Company"
                 />
               </div>
               <div className="col-md-7 col-sm-12 right_text ">
                 <h1>
-                  {" "}
-                  <span className="  mycolor ">
-                    {" "}
-                    Android Game Development{" "}
-                  </span>{" "}
+                  <span className="  mycolor "> Android Game Development </span>
                   <span className="bottom_Textline_center position-relative">
-                    {" "}
                     Company
                   </span>
                 </h1>
@@ -63,7 +76,7 @@ const AndroidGameDevelopment = () => {
                   enter the amazing world of mobile games.
                 </p>
                 <p className="mb-3">
-                  The expert team of Android game developers at <b>Webapp</b>{" "}
+                  The expert team of Android game developers at <b>Webapp</b>
                   understands rapidly changing mobile gaming trends and the
                   desire of every client to create the next most exciting game
                   in the world, and use the latest technologies to make each
@@ -74,7 +87,7 @@ const AndroidGameDevelopment = () => {
                   character creation, graphics integration, programming, and
                   testing with advanced tools and the latest frameworks—have
                   yielded cost-effective yet high-quality mobile game app
-                  development with the greatest ROI. Because of these traits,{" "}
+                  development with the greatest ROI. Because of these traits,
                   <b>Webapp</b> has an excellent reputation among its clients in
                   the UK, USA, Canada, Australia, Israel, UAE, Europe, and
                   across the globe.
@@ -82,8 +95,7 @@ const AndroidGameDevelopment = () => {
 
                 <div className="my_button small_button  mt-5">
                   <a>
-                    {" "}
-                    <button className="close">Talk To Our Experts</button>{" "}
+                    <button className="close">Talk To Our Experts</button>
                   </a>
                 </div>
               </div>
@@ -91,17 +103,12 @@ const AndroidGameDevelopment = () => {
           </div>
         </div>
 
-        <section className=" web-why-choose-us-inner bg-light py-6">
+        <section className=" web-why-choose-us-inner bg-light py-5">
           <div className="container">
             <div className="title development_section">
               <h1>
-                {" "}
-                <span className="mycolor">
-                  {" "}
-                  Our Suite of Android Game{" "}
-                </span>{" "}
+                <span className="mycolor">Our Suite of Android Game </span>
                 <span className=" bottom_Textline_center position-relative ">
-                  {" "}
                   Development Services
                 </span>
               </h1>
@@ -111,7 +118,7 @@ const AndroidGameDevelopment = () => {
                 <div className="col-lg-6 col-md-6 col-sm-12 col-12">
                   <div className="web-why-choose-us-inner-box mhbox shadow">
                     <div className="web-why-choose-inner-icon shadow">
-                      <i className="bi bi-file-earmark-code"></i>
+                      <AiOutlineCodeSandbox/>
                     </div>
                     <h2>Asset Creation</h2>
                     <p>
@@ -125,7 +132,9 @@ const AndroidGameDevelopment = () => {
                 </div>
                 <div className="col-lg-6 col-md-6 col-sm-12 col-12">
                   <div className="web-why-choose-us-inner-box mhbox shadow">
-                    <div className="web-why-choose-inner-icon shadow">icon</div>
+                    <div className="web-why-choose-inner-icon shadow">
+                      <AiOutlineCode/>
+                    </div>
                     <h2>Android Development</h2>
                     <p>
                       Following Android Studio`s guidelines, our Android game
@@ -138,7 +147,9 @@ const AndroidGameDevelopment = () => {
                 </div>
                 <div className="col-lg-6 col-md-6 col-sm-12 col-12">
                   <div className="web-why-choose-us-inner-box mhbox shadow">
-                    <div className="web-why-choose-inner-icon shadow">icon</div>
+                    <div className="web-why-choose-inner-icon shadow">
+                      <AiOutlineCodepen/>
+                    </div>
                     <h2>Play Store Development</h2>
                     <p>
                       Google Play Store has strict game and app submission
@@ -149,7 +160,9 @@ const AndroidGameDevelopment = () => {
                 </div>
                 <div className="col-lg-6 col-md-6 col-sm-12 col-12">
                   <div className="web-why-choose-us-inner-box mhbox shadow">
-                    <div className="web-why-choose-inner-icon shadow">icon</div>
+                    <div className="web-why-choose-inner-icon shadow">
+                      <BsCodeSlash/>
+                    </div>
                     <h2>Android Development</h2>
                     <p>
                       As an experienced Android game development company, we
@@ -165,7 +178,9 @@ const AndroidGameDevelopment = () => {
                 </div>
                 <div className="col-lg-6 col-md-6 col-sm-12 col-12">
                   <div className="web-why-choose-us-inner-box mhbox shadow">
-                    <div className="web-why-choose-inner-icon shadow">icon</div>
+                    <div className="web-why-choose-inner-icon shadow">
+                      <BsCodeSquare/>
+                    </div>
                     <h2>Google Play Games Integration</h2>
                     <p>
                       Our extensive technical knowledge and hands-on experience
@@ -178,7 +193,9 @@ const AndroidGameDevelopment = () => {
                 </div>
                 <div className="col-lg-6 col-md-6 col-sm-12 col-12">
                   <div className="web-why-choose-us-inner-box mhbox shadow">
-                    <div className="web-why-choose-inner-icon shadow">icon</div>
+                    <div className="web-why-choose-inner-icon shadow">
+                      <BsCode/>
+                    </div>
                     <h2>Concept Art Design</h2>
                     <p>
                       After helping you choose the appropriate style for your
@@ -190,7 +207,9 @@ const AndroidGameDevelopment = () => {
                 </div>
                 <div className="col-lg-6 col-md-6 col-sm-12 col-12">
                   <div className="web-why-choose-us-inner-box mhbox shadow">
-                    <div className="web-why-choose-inner-icon shadow">icon</div>
+                    <div className="web-why-choose-inner-icon shadow">
+                      <BsFileCode/>
+                    </div>
                     <h2>In-App Purchase</h2>
                     <p>
                       Our goal is to increase your revenue by optimising in-app
@@ -202,10 +221,12 @@ const AndroidGameDevelopment = () => {
                 </div>
                 <div className="col-lg-6 col-md-6 col-sm-12 col-12">
                   <div className="web-why-choose-us-inner-box mhbox shadow">
-                    <div className="web-why-choose-inner-icon shadow">icon</div>
+                    <div className="web-why-choose-inner-icon shadow">
+                      <BsFileEarmarkCode/>
+                    </div>
                     <h2>Support And Maintenance</h2>
                     <p>
-                      Ensuring quality from start to finish, <b>Webapp</b>{" "}
+                      Ensuring quality from start to finish, <b>Webapp</b>
                       offers intensive software support and maintenance
                       services. To ensure engagement and retention, our game
                       developers optimise game balancing, performance
@@ -217,7 +238,9 @@ const AndroidGameDevelopment = () => {
               <div className="row justify-content-center">
                 <div className="col-lg-6 col-md-6 col-sm-12">
                   <div className="web-why-choose-us-inner-box mhbox shadow">
-                    <div className="web-why-choose-inner-icon shadow">icon</div>
+                    <div className="web-why-choose-inner-icon shadow">
+                      <FaLaptopCode/>
+                    </div>
                     <h2>Tablet Development</h2>
                     <p>
                       Our technical and creative capabilities, which allow us to
@@ -243,13 +266,11 @@ const AndroidGameDevelopment = () => {
                 <div className="language_text main_heading text-center">
                   <h1 className="h3_heading">
                     <span className="text-ourColor">
-                      {" "}
-                      Type of Android and Tablet Game{" "}
-                    </span>{" "}
-                    <br />{" "}
+                      Type of Android and Tablet Game
+                    </span>
+                    <br />
                     <span className="bottom_Textline_center position-relative     ">
-                      {" "}
-                      we Develop{" "}
+                      we Develop
                     </span>
                   </h1>
                 </div>
@@ -399,8 +420,8 @@ const AndroidGameDevelopment = () => {
           </div>
         </div>
 
-        <div className="container development_section ">
-          <div className="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-3 my-5">
+        <div className="container " style={{marginBottom: "10rem"}}>
+          <div className="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-3">
             <div className="col card-height mb-4">
               <div className="card height-card  border-0">
                 <div className="card-body shadow">
@@ -478,7 +499,12 @@ const AndroidGameDevelopment = () => {
           </div>
         </div>
       </div>
+
+      <IndustriesWeServe/>
+      <ProcessWeFollow />
+     
     </>
+    
   );
 };
 

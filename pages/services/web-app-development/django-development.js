@@ -1,15 +1,37 @@
 import Image from "next/image";
 import React from "react";
-import styles from './webapp-css/django.module.css'
+import styles from "./webapp-css/django.module.css";
+import Head from "next/head";
+import IndustriesWeServe from "../../../components/IndustriesWeServe";
+import ProcessWeFollow from "../../../components/ProcessWeFollow";
 
 const PythonDjangoDevelopment = () => {
   return (
     <>
+      <Head>
+        <title>Python & Django development company | Webapp UK</title>
+        <meta
+          name="description"
+          content="We are a Python & Django Web Development company having an experienced team that provides custom development services that make your business stand out."
+        />
+        <meta
+          name="keywords"
+          content="Django for Web Development,
+Dython django app development,
+Django python mobile development"
+        />
+
+        <link
+          rel="canonical"
+          href="https://www.webapp.world/services/web-app-trends/angular-app-development/"
+        />
+      </Head>
+
       <div className="inner_page">
         <section className={styles.djangobg}>
           <div className="container">
             <div className="row flex-reverse">
-              <div className="col-md-6 col-sm-12 d-flex align-items-center">
+              <div className="col-md-6 col-sm-12 d-flex align-items-center text-white">
                 <div className="top_text text-white">
                   <h1>Top Rated Python Development Company</h1>
                   <p className="my-3">
@@ -54,7 +76,7 @@ const PythonDjangoDevelopment = () => {
                 data-aos="zoom-in-right"
               >
                 <Image
-                   width={500}
+                  width={500}
                   height={500}
                   src="/images/servies/pagesImage/Django python mobile development.png"
                   alt="Django python mobile development"
@@ -65,8 +87,11 @@ const PythonDjangoDevelopment = () => {
                 data-aos="zoom-in-left"
               >
                 <h1 className="mb-5">
-                  <span className="mycolor"> Development on </span>{" "}
-                  <span className="border-bottom   "> Demand</span>
+                  <span className="mycolor"> Development on </span>
+                  <span className="bottom_Textline_center position-relative  ">
+                    
+                    Demand
+                  </span>
                 </h1>
                 <p>
                   Our expert developers enable us to deliver creative and
@@ -94,7 +119,7 @@ const PythonDjangoDevelopment = () => {
                 <div className="my_button  small_button mt-5">
                   <a>
                     <button className="close">
-                      Let`s Discuss Your Experts{" "}
+                      Let`s Discuss Your Experts
                     </button>
                   </a>
                 </div>
@@ -103,10 +128,12 @@ const PythonDjangoDevelopment = () => {
           </div>
         </div>
 
-        <div className="container development_section my-6">
+        <div className="container development_section my-5">
           <h1 className="text-center  py-4">
-            <span className="mycolor"> Python Services Offered by the</span>{" "}
-            <span className="border-bottom"> Webapp</span>
+            <span className="mycolor"> Python Services Offered by the</span>
+            <span className="bottom_Textline_center position-relative">
+              Webapp
+            </span>
           </h1>
 
           <div
@@ -319,10 +346,13 @@ const PythonDjangoDevelopment = () => {
           </div>
         </div>
 
-        <div className="container development_section my-6">
-          <h1 className="text-center mt-5  mb-5">
+        <div className="container development_section ">
+          <h1 className="text-center  mb-5">
             <span className="mycolor">Advantages of Using Python for </span>
-            <span className="border-bottom"> Web Development </span>
+            <span className="bottom_Textline_center position-relative">
+              
+              Web Development
+            </span>
           </h1>
           <p className="text-center mt-4 mb-4">
             Python is a powerful language that can make any programming
@@ -505,6 +535,9 @@ const PythonDjangoDevelopment = () => {
           </div>
         </div>
       </div>
+
+      <IndustriesWeServe/>
+      <ProcessWeFollow />
     </>
   );
 };

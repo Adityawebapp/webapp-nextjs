@@ -1,17 +1,43 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import React from "react";
-import styles from './latest-css/augmented.module.css'
+import styles from "./latest-css/augmented.module.css";
+import Head from "next/head";
+import IndustriesWeServe from "../../../components/IndustriesWeServe";
+import ProcessWeFollow from "../../../components/ProcessWeFollow";
 
 const AugmentedVirtualReality = () => {
   return (
     <>
+      <Head>
+        <title>Augmented Reality and Virtually Reality App Development | Webapp UK</title>
+        <meta
+          name="description"
+          content="We are a reputed Augmented Reality and Virtual Reality app development company that offers the best AR/VR solutions for enterprises to meet business goals."
+        />
+        <meta
+          name="keywords"
+          content="AR and VR,
+Augmented Reality,
+Virtual Reality,
+Augmentd & Virtual Reality,
+AR apps,
+VR apps"
+        />
+
+        <link
+          rel="canonical"
+          href="https://www.webapp.world/latest-app-trends/augmented-virtual-Reality/"
+        />
+      </Head>
+
       <div className="inner_page">
         <section className={styles.arvrBg}>
           <div className="container">
             <div className="row flex-reverse">
-              <div className="col-md-6 col-sm-12 d-flex align-items-center">
+              <div className="col-md-6 col-sm-12 d-flex align-items-center text-white">
                 <div className="top_text">
-                  <h1 className="text-white">
+                  <h1 className="">
                     Best Virtual Reality App Development Company
                   </h1>
                   <p className="my-3">
@@ -43,16 +69,15 @@ const AugmentedVirtualReality = () => {
           </div>
         </section>
 
-        <div className="card_section py-6">
+        <div className="card_section py-6 bg-gray" >
           <div className="container ">
             <div className="row align-items-center ">
               <div
                 className="col-lg-6 col-md-6 col-sm-12 header_img1"
                 data-aos="zoom-out-right"
               >
-                <Image
-                  width={500}
-                  height={600}
+                <img
+                  width="80%"
                   src="/images/servies/pagesImage/VR apps.png"
                   alt="VR apps"
                 />
@@ -63,7 +88,10 @@ const AugmentedVirtualReality = () => {
               >
                 <h1 className="mb-5 ">
                   <span className="mycolor"> Virtual Reality App</span> <br />
-                  <span className="border-bottom "> Development Company </span>
+                  <span className="bottom_Textline_center position-relative ">
+                    
+                    Development Company
+                  </span>
                 </h1>
                 <p>
                   Experts believe that the reason behind the growing popularity
@@ -111,7 +139,10 @@ const AugmentedVirtualReality = () => {
         <div className="container development_section my-6">
           <h1 className="text-center ">
             <span className="mycolor"> Our Suite of Virtual Reality </span>
-            <span className="border-bottom"> Game Development Services </span>
+            <span className="bottom_Textline_center position-relative">
+              
+              Game Development Services
+            </span>
           </h1>
           <p className="text-center mt-4 mb-4">
             We make sure to use the most advanced tools in order to achieve the
@@ -119,7 +150,7 @@ const AugmentedVirtualReality = () => {
           </p>
           <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-3">
             <div className="col mb-4" data-aos="fade-up-right">
-              <div className="card virtual-card-height virtual-card-height shadow border-0">
+              <div style={{height: "22rem"}} className="card virtual-card-height virtual-card-height shadow border-0">
                 <div className="card-body">
                   <div className="text-center py-3 development_card">
                     <Image
@@ -143,11 +174,11 @@ const AugmentedVirtualReality = () => {
             </div>
 
             <div className="col mb-4" data-aos="fade-down">
-              <div className="card virtual-card-height shadow border-0">
+              <div style={{height: "22rem"}} className="card virtual-card-height shadow border-0">
                 <div className="card-body">
                   <div className="text-center py-3 development_card">
                     <Image
-                       width="85px"
+                      width="85px"
                       height="85px"
                       src="/images/icon/Instagram.svg"
                       alt="instagram"
@@ -166,11 +197,11 @@ const AugmentedVirtualReality = () => {
             </div>
 
             <div className="col mb-4" data-aos="fade-up-left">
-              <div className="card virtual-card-height shadow shadow border-0">
+              <div style={{height: "22rem"}} className="card virtual-card-height shadow border-0">
                 <div className="card-body">
                   <div className="text-center py-3 development_card">
                     <Image
-                       width="85px"
+                      width="85px"
                       height="85px"
                       src="/images/icon/Netflix-Logo.wine.svg"
                       alt="netflix"
@@ -192,7 +223,7 @@ const AugmentedVirtualReality = () => {
             </div>
 
             <div className="col mb-4" data-aos="fade-up-right">
-              <div className="card virtual-card-height shadow border-0">
+              <div style={{height: "22rem"}} className="card virtual-card-height shadow border-0">
                 <div className="card-body">
                   <div className="text-center py-3 development_card">
                     <Image
@@ -214,7 +245,7 @@ const AugmentedVirtualReality = () => {
               </div>
             </div>
             <div className="col mb-4" data-aos="fade-up">
-              <div className="card virtual-card-height shadow border-0">
+              <div style={{height: "22rem"}} className="card virtual-card-height shadow border-0">
                 <div className="card-body">
                   <div className="text-center py-3 development_card">
                     <Image
@@ -236,7 +267,7 @@ const AugmentedVirtualReality = () => {
               </div>
             </div>
             <div className="col mb-4" data-aos="fade-up-left">
-              <div className="card virtual-card-height shadow border-0">
+              <div style={{height: "22rem"}} className="card virtual-card-height shadow border-0">
                 <div className="card-body">
                   <div className="text-center py-3 development_card">
                     <Image
@@ -263,17 +294,24 @@ const AugmentedVirtualReality = () => {
 
         <div className="container development_section">
           <h1 className="text-center mt-5 mb-5" data-aos="fade-up">
-            <span className="mycolor"> Type of Virtual Reality </span>{" "}
-            <span className="border-bottom"> Game We Develop</span>
+            <span className="mycolor"> Type of Virtual Reality </span>
+            <span className="bottom_Textline_center position-relative">
+              
+              Game We Develop
+            </span>
           </h1>
 
           <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-3">
             <div className="col mb-4" data-aos="fade-up-right">
-              <div className="card shadow border-0">
+              <div  style={{height: "18rem"}} className="card shadow border-0">
                 <div className="card-body">
                   <div className="text-center py-3 development_card">
-                    <Image  width="70px!important"
-                      height="70px" alt="" src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/000000/external-web-development-digital-nomading-relocation-flaticons-lineal-color-flat-icons.png" />
+                    <Image
+                      width="70px!important"
+                      height="70px"
+                      alt=""
+                      src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/000000/external-web-development-digital-nomading-relocation-flaticons-lineal-color-flat-icons.png"
+                    />
                     <h2 className="card-title mb-3">VR Action Games</h2>
                     <p className="card-text">
                       Be a real hero in the virtual world with a VR action game.
@@ -285,11 +323,15 @@ const AugmentedVirtualReality = () => {
               </div>
             </div>
             <div className="col mb-4" data-aos="fade-down">
-              <div className="card shadow">
+              <div  style={{height: "18rem"}} className="card shadow">
                 <div className="card-body">
                   <div className="text-center py-3 development_card">
-                    <Image  width="70px!important"
-                      height="70px" alt="" src="https://img.icons8.com/external-kiranshastry-gradient-kiranshastry/64/000000/external-web-development-coding-kiranshastry-gradient-kiranshastry.png" />
+                    <Image
+                      width="70px!important"
+                      height="70px"
+                      alt=""
+                      src="https://img.icons8.com/external-kiranshastry-gradient-kiranshastry/64/000000/external-web-development-coding-kiranshastry-gradient-kiranshastry.png"
+                    />
                     <h2 className="card-title mb-3">VR FPS Games</h2>
                     <p className="card-text">
                       VR first-person shooter games can be ones which deliver
@@ -302,11 +344,15 @@ const AugmentedVirtualReality = () => {
             </div>
 
             <div className="col mb-4" data-aos="fade-up-left">
-              <div className="card shadow">
+              <div  style={{height: "18rem"}} className="card shadow">
                 <div className="card-body">
                   <div className="text-center py-3 development_card">
-                    <Image  width="70px!important"
-                      height="70px" alt="" src="https://img.icons8.com/external-parzival-1997-flat-parzival-1997/64/000000/external-crm-digital-transformation-parzival-1997-flat-parzival-1997.png" />
+                    <Image
+                      width="70px!important"
+                      height="70px"
+                      alt=""
+                      src="https://img.icons8.com/external-parzival-1997-flat-parzival-1997/64/000000/external-crm-digital-transformation-parzival-1997-flat-parzival-1997.png"
+                    />
 
                     <h2 className="card-title mb-3">VR Adventure Games</h2>
                     <p className="card-text">
@@ -320,11 +366,11 @@ const AugmentedVirtualReality = () => {
             </div>
 
             <div className="col mb-4" data-aos="fade-up-right">
-              <div className="card shadow">
+              <div  style={{height: "18rem"}} className="card shadow">
                 <div className="card-body">
                   <div className="text-center py-3 development_card">
                     <Image
-                       width="70px!important"
+                      width="70px!important"
                       height="70px"
                       src="https://img.icons8.com/external-xnimrodx-lineal-gradient-xnimrodx/64/000000/external-code-virus-and-hacker-xnimrodx-lineal-gradient-xnimrodx.png"
                       className=""
@@ -341,7 +387,7 @@ const AugmentedVirtualReality = () => {
               </div>
             </div>
             <div className="col mb-4" data-aos="fade-down">
-              <div className="card shadow">
+              <div  style={{height: "18rem"}} className="card shadow">
                 <div className="card-body">
                   <div className="text-center py-3 development_card">
                     <Image
@@ -362,7 +408,7 @@ const AugmentedVirtualReality = () => {
               </div>
             </div>
             <div className="col mb-4" data-aos="fade-up-left">
-              <div className="card shadow">
+              <div  style={{height: "18rem"}} className="card shadow">
                 <div className="card-body">
                   <div className="text-center py-3 development_card">
                     <Image
@@ -386,7 +432,7 @@ const AugmentedVirtualReality = () => {
           <div className="row justify-content-center">
             <div className="col-lg-4 col-sm-12">
               <div className="col mb-4" data-aos="fade-up">
-                <div className="card shadow">
+                <div  style={{height: "18rem"}} className="card shadow">
                   <div className="card-body">
                     <div className="text-center py-3 development_card">
                       <Image
@@ -410,6 +456,9 @@ const AugmentedVirtualReality = () => {
           </div>
         </div>
       </div>
+
+      <IndustriesWeServe/>
+      <ProcessWeFollow />
     </>
   );
 };

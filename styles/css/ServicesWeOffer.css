@@ -11,17 +11,7 @@
     left: 8%;
   }
   
-  .bottom_line_center_services:after {
-    content: "";
-    display: block;
-    height: 3px;
-    width: 5%;
-    background-color: #ae0000;
-    position: absolute;
-    left: 50%;
-    bottom: -10px;
-    transform: translate(-50%, -50%);
-  }
+
   
   .shadow-box:hover {
     transform: scale(1.1);

@@ -1,9 +1,27 @@
-import React from "react";
+
 import Image from "next/image";
+import Head from "next/head";
 
 const projects = () => {
   return (
     <>
+    <Head>
+        <title>Our Project | Our Fresh Work - Webapp UK</title>
+        <meta
+          name="description"
+          content="As a leading app developers in UK ,we are working with hundreds of clients.  Get a glimpse about our work here "
+        />
+        <meta
+          name="keywords"
+          content="app developers in UK"
+        />
+
+        <link
+          rel="canonical"
+          href="https://www.webapp.world/projects"
+        />
+      </Head>
+
       <div className="" id="projectSection">
         <div className="row justify-content-center">
           <div className=" col-md-6 col-sm-12 col-lg-4 bg1">
@@ -19,18 +37,13 @@ const projects = () => {
                 </div>
 
                 <div className="project_top_heading">
-                  <a target="_black" href="javascript:void();">
+                  <a target="_black" href="javascript:void();" className="h-0s">
                     <h3 className="hover">Color Ball Run!</h3>
-                    <Image
-                       width={600}
-                       height={1200}
-                      src="/images/servies/logo-app.png"
-                      alt=""
-                    />
+                  
                   </a>
                 </div>
               </div>
-              <a target="_black" href="javascript:void();">
+              <a target="_black" href="javascript:void();" style={{height:"0"}}>
                 <div className="project_image_section " data-aos="zoom-in">
                   <div className="first_image SplitImage1">
                     <div className="project_one_image">

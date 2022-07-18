@@ -296,11 +296,6 @@ picture img {
     margin-bottom: 50px;
 }
 
-.title span {
-    font-size  : 16px;
-    font-weight: 500;
-    color      : #ec7323;
-}
 
 .title h2 {
     font-size  :1.5rem ;
@@ -338,13 +333,12 @@ picture img {
 }
 
 .web-why-choose-inner-icon svg {
-    width : 44px;
-    height: 44px;
+    width : 35px;
+    height: 35px;
 }
 
-.web-why-choose-inner-icon svg {
-    width : 44px;
-    height: 44px;
+.web-why-choose-inner-icon shadow h2{
+    margin: 2rem 0 1rem;
 }
 
 .web-why-choose-us-inner-box p {
@@ -397,7 +391,7 @@ picture img {
 }
 
 
-.web-why-choose-us-inner-box:hover .web-why-choose-inner-icon i {
+.web-why-choose-us-inner-box:hover .web-why-choose-inner-icon svg {
     color           : white;
     background-color: #Ae0000;
 }
@@ -439,22 +433,6 @@ picture img {
   }
 
 
-
-  /* ============= */
-
-  .top_text h1{
-    margin-bottom: 2.5rem;
-    font-size: 2.5rem;
-    font-weight: 700;
-    line-height: 1.2;
-}
-
-.top_text p{
-  font-size: 1.2rem;
-}
-.top_text h1, .top_text p{
-     color: #fff;
-}
 
 
 /* ======================== */

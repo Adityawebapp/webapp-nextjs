@@ -19,9 +19,8 @@
 /* ====================================
 new footer code start here  
  ========================= */
-.fa,
-.fab,
-.fad {
+.bi
+{
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   display: inline-block;
@@ -29,9 +28,10 @@ new footer code start here
   font-variant: normal;
   text-rendering: auto;
   line-height: 1;
+
 }
 
-.social-icons .fab:hover {
+.social-icons .bi:hover {
   background: transparent;
   color: #fff;
   cursor: pointer;
@@ -42,18 +42,25 @@ new footer code start here
   -o-transform: translateY(-7px);
 }
 
-.social-icons .fab {
-  /* background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);
-    background: linear-gradient(to right, #ACB6E5, #74ebd5); */
+.social-icons .bi {
+  /*background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);
+  background: linear-gradient(to right, #ACB6E5, #74ebd5);
+  */
   height: 40px;
   width: 40px;
-  font-size: 20px;
+  padding: 5px;
+  border-radius: 30px;
   line-height: 40px;
   transition: 0.5s;
+  font-size: 20px;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
   -ms-transition: 0.5s;
   -o-transition: 0.5s;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
 }
 
 .social-icons > a {
@@ -89,7 +96,7 @@ new footer code start here
   ) !important;
 }
 
-.social-icons .fa-facebook-f {
+.social-icons .bi-facebook  {
   background: #4267b2 !important;
 }
 

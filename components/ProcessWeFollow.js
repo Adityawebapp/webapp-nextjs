@@ -9,8 +9,8 @@ const ProcessWeFollow = () => {
         <div className="follow_process my-5">
           <div className="text-center">
             <h1>
-              <span>Process We</span>
-              <span className="bottom_line_center_follow_process position-relative">
+              <span>Process We </span>
+              <span className="bottom_Textline_center position-relative">
                 Follow
               </span>
             </h1>
@@ -36,7 +36,7 @@ const ProcessWeFollow = () => {
                 >
                   <div className="">
                     <h2>
-                      <span className="bottom_line_center_Strategy position-relative">
+                      <span className="bottom_Textline_center position-relative">
                         Strategy
                       </span>
                     </h2>
@@ -65,8 +65,8 @@ const ProcessWeFollow = () => {
               <div className="row">
                 <div className="col-md-7 follow_process_text wow zoomInLeft">
                   <div className="">
-                    <h2>
-                      <span className="bottom_line_center_Creative position-relative">
+                    <h2 className="">
+                      <span className="bottom_Textline_center position-relative">
                         Creative
                       </span>
                     </h2>
@@ -91,11 +91,11 @@ const ProcessWeFollow = () => {
                 </div>
               </div>
 
-              <div className="dotted-line text-center rotate-image">
+              <div className="text-center dotted-line d-sm-none d-md-block d-lg-block dotted-line text-center rotate-image">
                 <img src="/images/homeImage/gif/line-2.gif" alt="" />
               </div>
 
-              <div className="text-center mobile_dotted">
+              <div className="text-center mobile_dotted d-sm-block d-lg-none d-md-none">
                 <img
                   className=""
                   src="/images/servies/gif/Desktop-path2.gif"
@@ -116,7 +116,7 @@ const ProcessWeFollow = () => {
                 <div className="col-md-7 follow_process_text wow zoomInRight">
                   <div className="">
                     <h2>
-                      <span className="bottom_line_center_design position-relative">
+                      <span className="bottom_Textline_center position-relative">
                         Design
                       </span>
                     </h2>
@@ -134,11 +134,11 @@ const ProcessWeFollow = () => {
                 </div>
               </div>
 
-              <div className="dotted-line text-center">
+              <div className="text-center dotted-line d-sm-none d-md-block d-lg-block">
                 <img src="/images/homeImage/gif/line-3.gif" alt="" />
               </div>
 
-              <div className="text-center mobile_dotted">
+              <div className="text-center mobile_dotted d-sm-block d-lg-none d-md-none">
                 <img
                   className="rotate-image"
                   src="/images/servies/gif/Desktop-path3.gif"
@@ -150,7 +150,7 @@ const ProcessWeFollow = () => {
                 <div className="col-md-7 follow_process_text wow zoomInLeft">
                   <div className="">
                     <h2>
-                      <span className="bottom_line_center_content position-relative">
+                      <span className="bottom_Textline_center position-relative">
                         Content
                       </span>
                     </h2>
@@ -176,11 +176,11 @@ const ProcessWeFollow = () => {
                 </div>
               </div>
 
-              <div className="dotted-line text-center rotate-image">
+              <div className="text-center dotted-line d-sm-none d-md-block d-lg-block dotted-line text-center rotate-image">
                 <img src="/images/homeImage/gif/line-4.gif" alt="" />
               </div>
 
-              <div className="text-center mobile_dotted">
+              <div className="text-center mobile_dotted d-sm-block d-lg-none d-md-none">
                 <img
                   className=""
                   src="/images/servies/gif/Desktop-path4.gif"
@@ -201,7 +201,7 @@ const ProcessWeFollow = () => {
                 <div className="col-md-7 follow_process_text wow zoomInRight">
                   <div className="">
                     <h2>
-                      <span className="bottom_line_center_development position-relative">
+                      <span className="bottom_Textline_center position-relative">
                         Development
                       </span>
                     </h2>
@@ -219,11 +219,11 @@ const ProcessWeFollow = () => {
                 </div>
               </div>
 
-              <div className="dotted-line text-center">
+              <div className="text-center dotted-line d-sm-none d-md-block d-lg-block">
                 <img src="/images/homeImage/gif/line-5.gif" alt="" />
               </div>
 
-              <div className="text-center mobile_dotted">
+              <div className="text-center mobile_dotted d-sm-block d-lg-none d-md-none">
                 <img
                   className="rotate-image"
                   src="/images/servies/gif/Desktop-path5.gif"
@@ -235,7 +235,7 @@ const ProcessWeFollow = () => {
                 <div className="col-md-7 follow_process_text wow zoomInLeft">
                   <div className="">
                     <h2>
-                      <span className="bottom_line_center_testing position-relative">
+                      <span className="bottom_Textline_center position-relative">
                         Testing
                       </span>
                     </h2>
@@ -264,11 +264,11 @@ const ProcessWeFollow = () => {
                 </div>
               </div>
 
-              <div className="dotted-line text-center rotate-image">
+              <div className="text-center dotted-line d-sm-none d-md-block d-lg-block dotted-line text-center rotate-image">
                 <img src="/images/homeImage/gif/line-6.gif" alt="" />
               </div>
 
-              <div className="text-center mobile_dotted">
+              <div className="text-center mobile_dotted d-sm-block d-lg-none d-md-none">
                 <img
                   className=""
                   src="/images/servies/gif/Desktop-path6.gif"
@@ -289,7 +289,7 @@ const ProcessWeFollow = () => {
                 <div className="col-md-7 follow_process_text  wow zoomInRight">
                   <div className="">
                     <h2>
-                      <span className="bottom_line_center_launch position-relative">
+                      <span className="bottom_Textline_center position-relative">
                         Launch
                       </span>
                     </h2>
@@ -306,11 +306,11 @@ const ProcessWeFollow = () => {
                 </div>
               </div>
 
-              <div className="dotted-line text-center">
+              <div className="text-center dotted-line d-sm-none d-md-block d-lg-block">
                 <img src="/images/homeImage/gif/line-7.gif" alt="" />
               </div>
 
-              <div className="text-center mobile_dotted  wow zoomInLeft">
+              <div className="text-center mobile_dotted d-sm-block d-lg-none d-md-none  wow zoomInLeft">
                 <img
                   className=""
                   src="/images/servies/gif/Desktop-path7.gif"
@@ -322,7 +322,7 @@ const ProcessWeFollow = () => {
                 <div className="col-md-7 follow_process_text  wow zoomInRight">
                   <div className="">
                     <h2>
-                      <span className="bottom_line_center_evaluation position-relative">
+                      <span className="bottom_Textline_center position-relative">
                         Evaluation
                       </span>
                     </h2>

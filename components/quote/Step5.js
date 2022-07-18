@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/bootstrap.css";
 
-const Step5 = () => {
+const Step5 = ({ formData, setFormData }) => {
   const [phone, setPhone] = useState("");
   return (
     <div>
@@ -14,16 +14,19 @@ const Step5 = () => {
                 Name
               </label>
               <PhoneInput
-                 style={{width:"100%"}}
+                inputStyle={{width:"100%"}}
                 country={"eg"}
                 enableSearch={true}
-                value={phone}
-                onChange={(phone) => setPhone(phone)}
+                value={formData.mobile}
+                onChange={(event) =>
+                  setFormData({ ...formData, mobile: event})
+                }
               />
             </div>
           </form>
         </div>
       </div>
+      {phone}
     </div>
   );
 };

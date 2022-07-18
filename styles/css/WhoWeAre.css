@@ -4,12 +4,6 @@
 }
 
 
-@media (min-width: 1300px) {
-  .container-fluid {
-    max-width: 1300px !important;
-    padding: 0;
-  }
-}
 
 
 
@@ -116,7 +110,7 @@
 /* ========================= */
 .shadowcard {
   width: 100%;
-  height: 11rem;
+  height: 8rem;
   padding: 28px 0px;
   color: #fff;
   background:transparent linear-gradient(180deg, #ffffff00 0%, #000000 27%, #000000 100%) 0% 0% no-repeat padding-box;
@@ -125,7 +119,7 @@
 }
 
 .shadowcard p {
-  font-size: 25px;
+  /* font-size: 25px; */
   font-weight: bolder;
 }
 .shadowcard h3 {
@@ -371,3 +365,32 @@
 }
 
 
+
+
+.my_button .close:hover,
+.my_button .close:focus {
+  box-shadow: inset -8.2em 0 0 0 #1a1a1a, inset 8.2em 0 0 0 #1a1a1a !important;
+}
+
+.my_button button {
+  color: rgb(0, 0, 0) !important;
+  background-color: #ffffff;
+  transition: 0.55s !important;
+}
+button:hover {
+  border-color: red !important;
+  color: #fff !important;
+}
+
+.my_button {
+  margin-top: 3rem;
+}
+
+.my_button button {
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  padding: 1em 2em;
+  font-weight: 700;
+  border-radius: 25px;
+}

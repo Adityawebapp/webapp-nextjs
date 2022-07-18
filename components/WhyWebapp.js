@@ -13,10 +13,10 @@ const WhyWebapp = () => {
               <div className="col-md-6">
                 <div className="left_whyWebb_text">
                   <h1 className="">
-                    <span className="bottom_line_whywebapp  position-relative ">
+                    <span className="mycolor ">
                       Why
                     </span>
-                    <span> Webapp</span>
+                    <span className="bottom_Textline_center position-relative"> Webapp</span>
                   </h1>
                   <p className="mt-4">
                     <b>Webapp</b> is a

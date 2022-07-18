@@ -1,10 +1,36 @@
 import React from "react";
 import Image from "next/image";
-import styles from './latest-css/iot.module.css'
+import styles from "./latest-css/iot.module.css";
+import Head from "next/head";
+import { BsCodeSlash,BsCodeSquare,BsFileCode,BsJournalCode } from 'react-icons/bs';
+import { AiOutlineCheck } from 'react-icons/ai';
+import IndustriesWeServe from "../../../components/IndustriesWeServe";
+import ProcessWeFollow from "../../../components/ProcessWeFollow";
 
 const IotDevelopment = () => {
   return (
     <>
+      <Head>
+        <title>IoT Services | Internet of Things Services | Webapp UK UK</title>
+        <meta
+          name="description"
+          content="If you are looking for any internet of things services, for your IoT based project then you can get the best IoT developers from Webapp."
+        />
+        <meta
+          name="keywords"
+          content="IoT companies UK,
+Fastest growing iot companies,
+Iot services,
+Iot managed services,
+Cloud services for iot"
+        />
+
+        <link
+          rel="canonical"
+          href="https://www.webapp.world/services/latest-app-trends/iot-development/"
+        />
+      </Head>
+
       <div className="inner_page">
         <section className={styles.iotbg}>
           <div className="row container custom-container justify-content-center">
@@ -20,7 +46,7 @@ const IotDevelopment = () => {
                 engagement with our comprehensive IoT solutions.
               </p>
 
-              <div className="my_button" >
+              <div className="my_button">
                 <a>
                   <button className="close">Let`s Discuss Your Idea</button>
                 </a>
@@ -43,9 +69,8 @@ const IotDevelopment = () => {
             <div className="row align-items-center" data-aos="fade-right">
               <div className="col-lg-5 col-md-5 col-sm-12  header_img1">
                 <Image
-                      width={500}
-                height={600}
-                  
+                  width={500}
+                  height={600}
                   src="/images/servies/pagesImage/Iot-services.png"
                   alt="Iot-services"
                 />
@@ -100,8 +125,7 @@ const IotDevelopment = () => {
             <div className="title development_section" data-aos="fade-down">
               <h1>
                 <span className="mycolor">
-                  Custom IOT Application Development Services
-                </span>
+                  Custom IOT Application Development Services </span>
                 <span className="bottom_Textline_center position-relative">
                   we offer?
                 </span>
@@ -115,9 +139,7 @@ const IotDevelopment = () => {
                 >
                   <div className="web-why-choose-us-inner-box mhbox shadow">
                     <div className="web-why-choose-inner-icon shadow">
-                      <i
-                        className="bi bi-file-earmark-code"
-                      ></i>
+                      <BsCodeSlash/>
                     </div>
                     <h2>Application Development for IoT Devices</h2>
                     <p>
@@ -134,13 +156,13 @@ const IotDevelopment = () => {
                 >
                   <div className="web-why-choose-us-inner-box mhbox shadow">
                     <div className="web-why-choose-inner-icon shadow">
-                       icon
+                      <BsCodeSquare/>
                     </div>
                     <h2>Financial Feasibility Analysis </h2>
                     <p>
                       To ensure operations automation is beneficial for you, we
                       calculate the potential investments, ROI, and payback
-                      period of the IoT solution.  
+                      period of the IoT solution.
                     </p>
                   </div>
                 </div>
@@ -150,7 +172,7 @@ const IotDevelopment = () => {
                 >
                   <div className="web-why-choose-us-inner-box mhbox shadow">
                     <div className="web-why-choose-inner-icon shadow">
-                  icon
+                      <BsFileCode/>
                     </div>
                     <h2>IoT Hardware Consulting and Implementation</h2>
                     <p>
@@ -168,7 +190,7 @@ const IotDevelopment = () => {
                 >
                   <div className="web-why-choose-us-inner-box mhbox shadow">
                     <div className="web-why-choose-inner-icon shadow">
-                   ijcon
+                      <BsJournalCode/>
                     </div>
                     <h2>IoT Solution Testing</h2>
                     <p>
@@ -190,9 +212,7 @@ const IotDevelopment = () => {
                 data-aos="fade-right"
               >
                 <div className="web-why-choose-us-inner-box mhbox shadow">
-                  <div className="web-why-choose-inner-icon shadow">
-                    icon
-                  </div>
+                  <div className="web-why-choose-inner-icon shadow">icon</div>
                   <h2>IoT Solution Support and Maintenance</h2>
                   <p>
                     Our team is ready to carry out IoT application monitoring
@@ -241,7 +261,7 @@ const IotDevelopment = () => {
               </div>
             </div>
             <div className="col mb-4" data-aos="fade-left">
-              <div className="card" >
+              <div className="card">
                 <div className="card-body shadow">
                   <div className="text-center py-3 development_card">
                     <Image
@@ -263,7 +283,7 @@ const IotDevelopment = () => {
               </div>
             </div>
             <div className="col mb-4" data-aos="fade-right">
-              <div className="card " style={{height:"18rem"}} >
+              <div className="card " style={{ height: "18rem" }}>
                 <div className="card-body shadow">
                   <div className="text-center py-3 development_card">
                     <Image
@@ -321,7 +341,7 @@ const IotDevelopment = () => {
           <div className="container py-5">
             <div className="title development_section">
               <h1>
-                <span className="mycolor">How We Approach for</span>
+                <span className="mycolor">How We Approach for </span>
                 <span className="bottom_Textline_center position-relative">
                   IOT Development?
                 </span>
@@ -336,19 +356,19 @@ const IotDevelopment = () => {
               <div className="col-md-6 iot_section_check">
                 <p>
                   <span>
-                    <i className="bi bi-check-lg"></i>
+                    <AiOutlineCheck style={{marginRight:"10px"}}/>
                   </span>
                   Identify the problem
                 </p>
                 <p>
                   <span>
-                    <i className="bi bi-check-lg"></i>
+                    <AiOutlineCheck style={{marginRight:"10px"}}/>
                   </span>
                   Analysis of the solution
                 </p>
                 <p>
                   <span>
-                    <i className="bi bi-check-lg"></i>
+                    <AiOutlineCheck style={{marginRight:"10px"}}/>
                   </span>
                   Selection of Hardware
                 </p>
@@ -356,19 +376,19 @@ const IotDevelopment = () => {
               <div className="col-md-6 iot_section_check">
                 <p>
                   <span>
-                    <i className="bi bi-check-lg"></i>
+                    <AiOutlineCheck style={{marginRight:"10px"}}/>
                   </span>
                   Building a compatible platform
                 </p>
                 <p>
                   <span>
-                    <i className="bi bi-check-lg"></i>
+                    <AiOutlineCheck style={{marginRight:"10px"}}/>
                   </span>
                   Testing and implementation
                 </p>
                 <p>
                   <span>
-                    <i className="bi bi-check-lg"></i>
+                    <AiOutlineCheck style={{marginRight:"10px"}}/>
                   </span>
                   Support & maintenance
                 </p>
@@ -377,6 +397,9 @@ const IotDevelopment = () => {
           </div>
         </section>
       </div>
+
+      <IndustriesWeServe/>
+      <ProcessWeFollow />
     </>
   );
 };

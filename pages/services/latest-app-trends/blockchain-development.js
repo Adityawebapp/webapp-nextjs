@@ -1,10 +1,43 @@
 import Image from "next/image";
 import React from "react";
 import styles from "./latest-css/blockchain.module.css";
+import Head from "next/head";
+
+import { BsCashCoin,BsCoin,BsCurrencyBitcoin, } from 'react-icons/bs';
+import {FaViacoin } from 'react-icons/fa';
+import {RiCoinsFill ,RiHandCoinFill,RiCopperCoinLine} from 'react-icons/ri';
+import {SiDogecoin,SiLitecoin} from 'react-icons/si';
+import { AiOutlineCheck  } from 'react-icons/ai';
+import IndustriesWeServe from "../../../components/IndustriesWeServe";
+import ProcessWeFollow from "../../../components/ProcessWeFollow";
+
 
 const BlockchainDevelopment = () => {
   return (
-    <div>
+    <>
+      <Head>
+        <title>
+          Blockchain Service Provider | Blockchain Development Company | Webapp
+          UK
+        </title>
+        <meta
+          name="description"
+          content="We are a leading blockchain app development service provider company having a team of expert developers who all have tremendous knowledge of Blockchain."
+        />
+        <meta
+          name="keywords"
+          content="Blockchain development services company,
+Blockchain customer services,
+Blockchain development process,
+Developing blockchain applications"
+        />
+
+        <link
+          rel="canonical"
+          href="https://www.webapp.world/services/latest-app-trends/blockchain-development/"
+        />
+      </Head>
+
       <div className="inner_page">
         <section className={styles.blockchainbg}>
           <div className="container">
@@ -39,11 +72,11 @@ const BlockchainDevelopment = () => {
             <div className="row align-items-center" data-aos="fade-right">
               <div className="col-md-6 col-sm-12 right_text main_heading">
                 <h1 className="mb-5">
-                  {" "}
-                  <span className="mycolor"> How does </span>{" "}
+                  
+                  <span className="mycolor"> How does </span>
                   <span className="bottom_Textline_center position-relative">
-                    Blockchain work?{" "}
-                  </span>{" "}
+                    Blockchain work?
+                  </span>
                 </h1>
                 <p>
                   Blockchain actually works on the basic principle which allows
@@ -123,12 +156,12 @@ const BlockchainDevelopment = () => {
                 data-aos="fade-left"
               >
                 <h1 className="mb-5">
-                  {" "}
-                  <span className="mycolor"> Blockchain Development</span>{" "}
+                  
+                  <span className="mycolor"> Blockchain Development</span>
                   <span className="bottom_Textline_center position-relative ">
-                    {" "}
-                    Services{" "}
-                  </span>{" "}
+                    
+                    Services
+                  </span>
                 </h1>
                 <p>
                   Blockchain, the distributed ledger, allows data to be
@@ -163,11 +196,11 @@ const BlockchainDevelopment = () => {
               data-aos="fade-down"
             >
               <h1>
-                {" "}
+                
                 <span className="bottom_Textline_center position-relative ">
-                  {" "}
-                  What do we do?{" "}
-                </span>{" "}
+                  
+                  What do we do?
+                </span>
               </h1>
               <p className="mt-5">
                 We serve your business needs using a wide range of decentralised
@@ -181,7 +214,7 @@ const BlockchainDevelopment = () => {
                 <div className="col-lg-6 col-md-6 col-sm-12 col-12">
                   <div className="web-why-choose-us-inner-box mhbox shadow">
                     <div className="web-why-choose-inner-icon shadow">
-                      <i className="bi bi-file-earmark-code"></i>
+                      <BsCashCoin/>
                     </div>
                     <h2>POC Development</h2>
                     <p>
@@ -199,7 +232,9 @@ const BlockchainDevelopment = () => {
                   data-aos="fade-up-left"
                 >
                   <div className="web-why-choose-us-inner-box mhbox shadow">
-                    <div className="web-why-choose-inner-icon shadow">icon</div>
+                    <div className="web-why-choose-inner-icon shadow">
+                      <BsCoin/>
+                    </div>
                     <h2>Smart Contract Development</h2>
                     <p>
                       Our team builds highly secure and reliable crypto wallets
@@ -215,7 +250,9 @@ const BlockchainDevelopment = () => {
                   data-aos="fade-up-right"
                 >
                   <div className="web-why-choose-us-inner-box mhbox shadow">
-                    <div className="web-why-choose-inner-icon shadow">icon</div>
+                    <div className="web-why-choose-inner-icon shadow">
+                      <BsCurrencyBitcoin/>
+                    </div>
                     <h2>Blockchain Development</h2>
                     <p>
                       Our blockchain developers create customised solutions that
@@ -230,7 +267,9 @@ const BlockchainDevelopment = () => {
                   data-aos="fade-up-left"
                 >
                   <div className="web-why-choose-us-inner-box mhbox shadow">
-                    <div className="web-why-choose-inner-icon shadow">icon</div>
+                    <div className="web-why-choose-inner-icon shadow">
+                      <FaViacoin/>
+                    </div>
                     <h2>Hyperledger Development</h2>
                     <p>
                       With our services, you can unlock the potential of
@@ -246,7 +285,9 @@ const BlockchainDevelopment = () => {
                   data-aos="fade-up-right"
                 >
                   <div className="web-why-choose-us-inner-box mhbox shadow">
-                    <div className="web-why-choose-inner-icon shadow">icon</div>
+                    <div className="web-why-choose-inner-icon shadow">
+                      <RiCoinsFill/>
+                    </div>
                     <h2>Crypto Wallet Development</h2>
                     <p>
                       Our enterprise blockchain development agency creates a
@@ -268,7 +309,7 @@ const BlockchainDevelopment = () => {
                       Our Apps Development team helps our clients to store all
                       their transactions without any kind of outside
                       interference and share them through a decentralised
-                      blockchain application. Develop your dApp now with{" "}
+                      blockchain application. Develop your dApp now with
                       <b>Webapp</b>, the leading blockchain development company.
                     </p>
                   </div>
@@ -278,13 +319,15 @@ const BlockchainDevelopment = () => {
                   data-aos="fade-up-right"
                 >
                   <div className="web-why-choose-us-inner-box mhbox shadow">
-                    <div className="web-why-choose-inner-icon shadow">icon</div>
+                    <div className="web-why-choose-inner-icon shadow">
+                      <RiHandCoinFill/>
+                    </div>
                     <h2>TRON Development</h2>
                     <p>
                       We provide our clients with a scalable, robust, and
                       decentralised solution on the TRON network by using a
                       custom Smart Contract. Get a custom TRON solution tailored
-                      to your specific needs by top developers from{" "}
+                      to your specific needs by top developers from
                       <b>Webapp</b>.
                     </p>
                   </div>
@@ -294,7 +337,9 @@ const BlockchainDevelopment = () => {
                   data-aos="fade-up-left"
                 >
                   <div className="web-why-choose-us-inner-box mhbox shadow">
-                    <div className="web-why-choose-inner-icon shadow">icon</div>
+                    <div className="web-why-choose-inner-icon shadow">
+                      <SiDogecoin/>
+                    </div>
                     <h2>Ethereum Token NFT</h2>
                     <p>
                       You can easily create non-fungible tokens by using
@@ -310,7 +355,7 @@ const BlockchainDevelopment = () => {
                   data-aos="fade-up-right"
                 >
                   <div className="web-why-choose-us-inner-box mhbox shadow">
-                    <div className="web-why-choose-inner-icon shadow">icon</div>
+                    <div className="web-why-choose-inner-icon shadow"><RiCopperCoinLine/></div>
                     <h2>Decentralised Exchange</h2>
                     <p>
                       Our blockchain developers allow traders to trade easily
@@ -326,7 +371,9 @@ const BlockchainDevelopment = () => {
                   data-aos="fade-up-left"
                 >
                   <div className="web-why-choose-us-inner-box mhbox shadow">
-                    <div className="web-why-choose-inner-icon shadow">icon</div>
+                    <div className="web-why-choose-inner-icon shadow">
+                      <SiLitecoin/>
+                    </div>
                     <h2>Supply Chain Development</h2>
                     <p>
                       We provide supply chain solutions for smooth
@@ -348,7 +395,7 @@ const BlockchainDevelopment = () => {
               <h1>
                 <span className="mycolor"> Why choose Webapp for</span>
                 <span className="bottom_Textline_center position-relative">
-                  {" "}
+                  
                   Blockchain Development?
                 </span>
               </h1>
@@ -362,40 +409,40 @@ const BlockchainDevelopment = () => {
               <div className="col-md-6 iot_section_check">
                 <p>
                   <span>
-                    <i className="bi bi-check-lg"></i>
-                  </span>{" "}
+                    <AiOutlineCheck style={{marginRight:"10px"}}  />
+                  </span>
                   Technically versatile team of designers and developers
                 </p>
                 <p>
                   <span>
-                    <i className="bi bi-check-lg"></i>
+                    <AiOutlineCheck style={{marginRight:"10px"}}  />
                   </span>
                   In-house development for the entire project
                 </p>
                 <p>
                   <span>
-                    <i className="bi bi-check-lg"></i>
-                  </span>{" "}
+                    <AiOutlineCheck style={{marginRight:"10px"}}  />
+                  </span>
                   NDA agreement
                 </p>
               </div>
               <div className="col-md-6 iot_section_check">
                 <p>
                   <span>
-                    <i className="bi bi-check-lg"></i>
-                  </span>{" "}
+                    <AiOutlineCheck style={{marginRight:"10px"}}  />
+                  </span>
                   On-time delivery of the project
                 </p>
                 <p>
                   <span>
-                    <i className="bi bi-check-lg"></i>
-                  </span>{" "}
+                    <AiOutlineCheck style={{marginRight:"10px"}}  />
+                  </span>
                   Reasonable rates
                 </p>
                 <p>
                   <span>
-                    <i className="bi bi-check-lg"></i>
-                  </span>{" "}
+                    <AiOutlineCheck style={{marginRight:"10px"}}  />
+                  </span>
                   Multiple hiring models
                 </p>
               </div>
@@ -403,7 +450,10 @@ const BlockchainDevelopment = () => {
           </div>
         </section>
       </div>
-    </div>
+
+      <IndustriesWeServe/>
+      <ProcessWeFollow />
+    </>
   );
 };
 

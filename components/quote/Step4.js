@@ -1,6 +1,6 @@
 import React from "react";
 
-const Step3 = () => {
+const Step3 = ({formData,setFormData}) => {
   return (
     <div>
     <div className="d-flex align-content-center justify-content-center">
@@ -16,7 +16,9 @@ const Step3 = () => {
             id="exampleInputEmail1"
             aria-describedby="emailHelp"
             placeholder="Enter your Email"
-          />
+            value={formData.email}
+            onChange={(event)=>setFormData({...formData,email:event.target.value})}/>
+     
         
         </div>
      
