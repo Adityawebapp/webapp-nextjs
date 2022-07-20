@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import Script from "next/script";
 import { AiFillApple, AiFillAndroid } from "react-icons/ai";
 import { RiFlutterFill, RiReactjsFill, RiAngularjsFill } from "react-icons/ri";
 import {
@@ -16,15 +17,40 @@ import { GiArtificialHive } from "react-icons/gi";
 import { motion } from "framer-motion";
 import MobileNav from "./MobileNav";
 import TopNavbar from "./TopNavbar";
-import Script from "next/script";
 import { BsFillPeopleFill } from "react-icons/bs";
 import { MdEmojiPeople } from "react-icons/md";
 
 const Navbar = () => {
   return (
     <>
+  <style global jsx>{`
+  .dropdown:hover .dropdown-menu{
+        display: block;
+    }
+    .dropdown-menu{
+        margin-top: 0;
+    }
+      `}</style>
+
+<Script id="show-banner" strategy="lazyOnload">
+  {`
+  
+  $(document).ready(function(){
+    $(".dropdown").hover(function(){
+        var dropdownMenu = $(this).children(".dropdown-menu");
+        if(dropdownMenu.is(":visible")){
+            dropdownMenu.parent().toggleClass("open");
+        }
+    });
+});     
+  
+  
+  `}
+</Script>
+
+
       <motion.nav
-        className="navbar navbar-expand-lg bg-dark"
+        className="navbar navbar-expand-lg bg-dark p-0"
         id="desktopNavbar"
         initial={{ y: "0", opacity: 0 }}
         animate={{ y: "-20", opacity: 1, delay: 20 }}
@@ -50,13 +76,13 @@ const Navbar = () => {
                   className="nav-link dropdown-toggle  mx-2 "
                   id="companyId"
                   role="button"
-                  data-bs-toggle="dropdown"
+                  data-bs-toggle="dropdownt"
                   aria-expanded="false"
                 >
                   Company
                 </motion.a>
                 <motion.ul
-                  className="dropdown-menu mt-3"
+                  className="dropdown-menu"
                   aria-labelledby="companyId"
                 >
                   <li>
@@ -75,17 +101,17 @@ const Navbar = () => {
                 </motion.ul>
               </li>
 
-              <li className="nav-item my-1 dropdown has-megamenu text-white">
+              <li className="nav-item my-1 dropdown has-megamenu text-white " style={{    top: "initial"}}>
                 <motion.a
                   whileHover={{ originX: 0, scale: 1.05 }}
                   whileTap={{ scale: 1.1 }}
                   href="#"
                   className="nav-link dropdown-toggle "
-                  data-bs-toggle="dropdown"
+                  // data-bs-toggle="dropdown"
                 >
                   Services
                 </motion.a>
-                <div className="dropdown-menu megamenu" role="menu">
+                <div className="dropdown-menu megamenu " role="menu">
                   <div className="row">
                     <div className="col mb-4">
                       <div className="row">
@@ -542,7 +568,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-item my-1 text-white  mx-2 ">
-                <Link href="/contact">
+                <Link href="/contact" activeStyle={{color: "red"}}>
                   <motion.a
                     whileHover={{ originX: 0, scale: 1.1 }}
                     whileTap={{ scale: 0.9 }}

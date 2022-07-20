@@ -58,7 +58,7 @@ App development services uk"
           </div>
         </section>
 
-        <div className="card_section">
+        <div className="card_section bg-gray">
           <div className="container">
             <div className="row align-items-center">
               <div
@@ -80,7 +80,7 @@ App development services uk"
                 data-aos-duration="500"
               >
                 <h1 className="mb-5 ">
-                  <span>Why Choose us for Android</span>
+                  <span className="mycolor">Why Choose us for Android</span>
                   <br />
                   <span className="bottom_Textline_center position-relative">
                     App Development?

@@ -16,9 +16,8 @@ const GetInTouch = () => {
 
   const onSubmit = (data) => {
     console.log(data, "formdata");
-
     axios
-      .post("https://api.webapp.world/GetInTouch", { data })
+      .post("https://api.webapp.world/GetInTouch",  data )
       .then((res) => {
         toast.success("Mail send successfully", {
           position: "top-center",

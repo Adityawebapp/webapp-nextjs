@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import React from "react";
 import styles from "./user-css/wireframe.module.css";
@@ -78,14 +79,13 @@ Wireframe Design"
           </div>
         </section>
 
-        <div className="py-5">
+        <div className="py-5 bg-gray">
           <div className="container">
             <div className="row align-items-center" data-aos="fade-right">
               <div className="col-lg-6 col-sm-12  header_img1">
-                <Image
-                  width={600}
-                  height={600}
-                  className="img-fluid"
+                <img
+                 
+                  width="90%"
                   src="/images/servies/pagesImage/Wireframe-Design.png"
                   alt="Wireframe-Design"
                 />
@@ -95,7 +95,7 @@ Wireframe Design"
                 data-aos="fade-left"
               >
                 <h1 className="mb-5">
-                  <span className="text-ourColor">
+                  <span className="mycolor">
                     {" "}
                     Wireframing and Prototyping Services for Better
                   </span>

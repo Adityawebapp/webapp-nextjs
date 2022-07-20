@@ -2,11 +2,13 @@ import React from "react";
 
 const Step3 = ({formData,setFormData}) => {
   return (
-    <div>
+    <div className="container">
+
     <div className="d-flex ">
     <div className="w-100">
+        <h1 className="text-center fs-6 p-1 text-white bg-blue rounded fw-light mb-3" style={{background: "#7175e1"}}> Please select the most suitable option.</h1>
       <form>
-        <div className="mb-3">
+        <div className="mb-3 text-start">
           <label htmlFor="name" className="form-label">
             Name
           </label>

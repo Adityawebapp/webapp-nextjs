@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Head from "next/head";
 
 import styles from '../styles/css/quote.module.css'
+
 import Step1 from "../components/quote/Step1";
 import Step2 from "../components/quote/Step2";
 import Step3 from "../components/quote/Step3";

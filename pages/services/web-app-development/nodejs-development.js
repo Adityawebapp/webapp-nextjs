@@ -4,6 +4,7 @@ import styles from './webapp-css/nodejs.module.css'
 import Head from 'next/head'
 import IndustriesWeServe from "../../../components/IndustriesWeServe";
 import ProcessWeFollow from "../../../components/ProcessWeFollow";
+import GetInTouch from "../../../components/GetInTouch";
 
 const NodejsDevelopment = () => {
   return (
@@ -144,7 +145,7 @@ Node JS Development Service Provider"
           <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-3">
             <div className="col mb-4" data-aos="zoom-in-right">
               <div className="card border-0">
-                <div className="card-body shadow">
+                <div className="card-body shadow" style={{height:"22rem"}}>
                   <div className="text-center py-3 development_card">
                     <Image
                       width="85px"
@@ -167,7 +168,7 @@ Node JS Development Service Provider"
 
             <div className="col mb-4" data-aos="zoom-out">
               <div className="card border-0">
-                <div className="card-body shadow">
+                <div className="card-body shadow" style={{height:"22rem"}}>
                   <div className="text-center py-3 development_card">
                     <Image
                       width="85px"
@@ -191,7 +192,7 @@ Node JS Development Service Provider"
 
             <div className="col mb-4" data-aos="zoom-in-left">
               <div className="card border-0">
-                <div className="card-body shadow">
+                <div className="card-body shadow" style={{height:"22rem"}}>
                   <div className="text-center py-3 development_card">
                     <Image
                       width="85px"
@@ -215,7 +216,7 @@ Node JS Development Service Provider"
 
             <div className="col mb-4" data-aos="zoom-in-right">
               <div className="card border-0">
-                <div className="card-body shadow">
+                <div className="card-body shadow" style={{height:"22rem"}}>
                   <div className="text-center py-3 development_card">
                     <Image
                       width="85px"
@@ -237,7 +238,7 @@ Node JS Development Service Provider"
             </div>
             <div className="col mb-4" data-aos="zoom-out">
               <div className="card border-0">
-                <div className="card-body shadow">
+                <div className="card-body shadow" style={{height:"22rem"}}>
                   <div className="text-center py-3 development_card">
                     <Image
                        width="85px"
@@ -259,7 +260,7 @@ Node JS Development Service Provider"
             </div>
             <div className="col mb-4" data-aos="zoom-in-right">
               <div className="card border-0">
-                <div className="card-body shadow">
+                <div className="card-body shadow" style={{height:"22rem"}}>
                   <div className="text-center py-3 development_card">
                     <Image
                       width="85px"
@@ -285,6 +286,7 @@ Node JS Development Service Provider"
 
       <IndustriesWeServe/>
       <ProcessWeFollow />
+      <GetInTouch/>
     </>
   );
 };

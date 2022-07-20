@@ -1,9 +1,11 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import React from "react";
 import Head from "next/head";
 import styles from "./game-css/ios.module.css";
 import IndustriesWeServe from "../../../components/IndustriesWeServe";
 import ProcessWeFollow from "../../../components/ProcessWeFollow";
+import GetInTouch from "../../../components/GetInTouch";
 
 const IosGameDevelopment = () => {
   return (
@@ -58,13 +60,12 @@ Ios and android game development"
           </div>
         </section>
 
-        <div className="card_section py-6">
+        <div className="card_section py-6 bg-gray">
           <div className="container">
             <div className="row align-items-center">
               <div className="col-lg-6 col-sm-12" data-aos="fade-right">
-                <Image
-                  width={700}
-                  height={500}
+                <img
+                  className="img-fluid"
                   src="/images/servies/pagesImage/Apple-ios-game-development.png"
                   alt="Apple ios game development"
                 />
@@ -111,7 +112,7 @@ Ios and android game development"
         </div>
 
         <div className="container  my-5 ">
-          <h1 className="text-center mb-5">
+          <h1 className={styles.OurSuite}>
             <span className="mycolor"> Our Suite of iOS Games </span>
             <span className="bottom_Textline_center position-relative">
               Development Services
@@ -121,7 +122,7 @@ Ios and android game development"
           <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-3 py-6">
             <div className="col mb-4" data-aos="fade-right">
               <div className="card Development-services-card border-0">
-                <div className="card-body shadow">
+                <div className="card-body shadow" style={{height:"30rem"}}>
                   <div className="text-center py-3 development_card">
                     <Image
                       width="85px"
@@ -145,7 +146,7 @@ Ios and android game development"
 
             <div className="col mb-4" data-aos="fade-down">
               <div className="card Development-services-card border-0">
-                <div className="card-body shadow">
+                <div className="card-body shadow" style={{height:"30rem"}}>
                   <div className="text-center py-3 development_card">
                     <Image
                       width="85px"
@@ -172,7 +173,7 @@ Ios and android game development"
 
             <div className="col mb-4" data-aos="fade-left">
               <div className="card Development-services-card border-0">
-                <div className="card-body shadow">
+                <div className="card-body shadow" style={{height:"30rem"}}>
                   <div className="text-center py-3 development_card">
                     <Image
                       width="85px"
@@ -197,7 +198,7 @@ Ios and android game development"
 
             <div className="col mb-4" data-aos="fade-right">
               <div className="card Development-services-card border-0">
-                <div className="card-body shadow">
+                <div className="card-body shadow" style={{height:"30rem"}}>
                   <div className="text-center py-3 development_card">
                     <Image
                       width="85px"
@@ -221,7 +222,7 @@ Ios and android game development"
             </div>
             <div className="col mb-4" data-aos="fade-down">
               <div className="card Development-services-card border-0">
-                <div className="card-body shadow">
+                <div className="card-body shadow" style={{height:"30rem"}}>
                   <div className="text-center py-3 development_card">
                     <Image
                       width="85px"
@@ -244,7 +245,7 @@ Ios and android game development"
             </div>
             <div className="col mb-4" data-aos="fade-left">
               <div className="card Development-services-card border-0">
-                <div className="card-body shadow">
+                <div className="card-body shadow" style={{height:"30rem"}}>
                   <div className="text-center py-3 development_card">
                     <Image
                       width="85px"
@@ -270,7 +271,7 @@ Ios and android game development"
           <div className="row justify-content-center">
             <div className="col-md-4 col-sm-12 mb-4" data-aos="fade-right">
               <div className="card Development-services-card border-0">
-                <div className="card-body shadow">
+                <div className="card-body shadow" style={{height:"30rem"}}>
                   <div className="text-center py-3 development_card">
                     <Image
                       width="85px"
@@ -293,7 +294,7 @@ Ios and android game development"
             </div>
             <div className="col-md-4 col-sm-12 mb-4" data-aos="fade-down">
               <div className="card Development-services-card border-0">
-                <div className="card-body shadow">
+                <div className="card-body shadow" style={{height:"30rem"}}>
                   <div className="text-center py-3 development_card">
                     <Image
                       width="85px"
@@ -492,8 +493,9 @@ Ios and android game development"
         </div>
       </div>
 
-      <IndustriesWeServe/>
+      <IndustriesWeServe />
       <ProcessWeFollow />
+      <GetInTouch/>
     </>
   );
 };

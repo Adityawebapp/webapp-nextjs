@@ -132,7 +132,7 @@ React JS Development Services"
 
           <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-3 my-5">
             <div className="col mb-4">
-              <div className="card projects-card-height shadow border-0">
+              <div className="card projects-card-height shadow border-0 " style={{height: '20rem'}}>
                 <div className="card-body" data-aos="zoom-out-right">
                   <div className="text-center py-3 development_card">
                     <Image
@@ -152,7 +152,7 @@ React JS Development Services"
             </div>
 
             <div className="col mb-4">
-              <div className="card projects-card-height shadow border-0">
+              <div className="card projects-card-height shadow border-0" style={{height: '20rem'}}>
                 <div className="card-body" data-aos="zoom-in">
                   <div className="text-center py-3 development_card">
                     <Image
@@ -173,7 +173,7 @@ React JS Development Services"
             </div>
 
             <div className="col mb-4">
-              <div className="card projects-card-height shadow border-0">
+              <div className="card projects-card-height shadow border-0" style={{height: '20rem'}}>
                 <div className="card-body" data-aos="zoom-out-left">
                   <div className="text-center py-3 development_card">
                     <Image
@@ -197,7 +197,7 @@ React JS Development Services"
 
           <div className="row justify-content-center">
             <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
-              <div className="card projects-card-height shadow border-0">
+              <div className="card projects-card-height shadow border-0" style={{height: '20rem'}}>
                 <div className="card-body" data-aos="zoom-out-right">
                   <div className="text-center py-3 development_card">
                     <Image
@@ -216,7 +216,7 @@ React JS Development Services"
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
-              <div className="card projects-card-height shadow border-0">
+              <div className="card projects-card-height shadow border-0" style={{height: '20rem'}}>
                 <div className="card-body" data-aos="zoom-in">
                   <div className="text-center py-3 development_card">
                     <Image

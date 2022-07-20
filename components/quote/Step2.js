@@ -11,6 +11,8 @@ const Step2 = ({ formData, setFormData }) => {
     <>
       <div className="d-flex align-content-center justify-content-center">
         <div className="">
+        <h1 className="text-center fs-6 p-1 text-white bg-blue rounded fw-light mb-3" style={{background: "#7175e1"}}> Please enter your country and country code</h1>
+
           <div className="row">
             <div className="col-6">
               <CountryDropdown

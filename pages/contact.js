@@ -4,6 +4,8 @@ import styles from "../styles/css/contact.module.css";
 import Testimonial from "../components/Testimonial";
 import Head from "next/head";
 import { useForm } from "react-hook-form";
+import axios from "axios";
+import { ToastContainer, toast } from "react-toastify";
 
 const people = [
   { name: "Wade Cooper" },
@@ -23,10 +25,56 @@ const Contact = () => {
     watch,
     formState: { errors },
   } = useForm();
-  const onSubmit = (data) => console.log(data);
+
+
+
+  const onSubmit = (data) =>{
+    axios
+    .post("http://3.9.246.8/api/common/email-form",  data )
+    .then((res) => {
+      toast.success("mail submit successfully", {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+      });
+
+      console.log(data, "data send succesfuly")
+       reset()
+    })
+    .catch((err) => {
+      console.log(err);
+      toast.error("mail sending fail", {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+      });
+    });
+  }
+
 
   return (
     <>
+
+<ToastContainer
+        position="top-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+      />
+
       <Head>
         <title>Contact Us For All Your IT Needs | Webapp UK</title>
         <meta

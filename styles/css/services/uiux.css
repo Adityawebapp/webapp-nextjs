@@ -386,18 +386,7 @@ picture img {
   text-align: center;
 }
 
-.web-why-choose-us-inner-box h5 {
-  font-size: 18px;
-  font-weight: 500;
-  width: calc(100% - 75px);
-  float: left;
-  padding-left: 10px;
-  margin-bottom: 15px;
-  -webkit-transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
-  -o-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
-}
+
 
 .web-why-choose-us-inner-box p:last-child {
   margin-bottom: 0;
@@ -407,7 +396,11 @@ picture img {
   clear: both;
 }
 
-
+h1{
+  line-height: 1.4;
+  font-size: 2rem;
+  font-weight: 700;
+}
 
 .web-why-choose-us-inner-box:hover .web-why-choose-inner-icon {
   border: 1px solid #Ae0000;

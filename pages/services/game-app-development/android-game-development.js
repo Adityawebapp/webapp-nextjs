@@ -1,9 +1,11 @@
+/* eslint-disable @next/next/no-img-element */
 import Head from "next/head";
 import Image from "next/image";
 import React from "react";
 import IndustriesWeServe from "../../../components/IndustriesWeServe";
 import ProcessWeFollow from "../../../components/ProcessWeFollow";
 import styles from "./game-css/android.module.css";
+import GetInTouch from '../../../components/GetInTouch'
 
 import { AiOutlineCodeSandbox,AiOutlineCode,AiOutlineCodepen, } from 'react-icons/ai';
 import {BsCodeSlash,BsCodeSquare,BsCode,BsFileCode,BsFileEarmarkCode } from 'react-icons/bs';
@@ -49,13 +51,12 @@ const AndroidGameDevelopment = () => {
           </div>
         </section>
 
-        <div className=" Development_Company py-5">
+        <div className=" Development_Company py-5 bg-gray" >
           <div className="container">
             <div className="row align-items-center">
               <div className="col-lg-5  col-sm-12 header-img1">
-                <Image
-                  width={800}
-                  height={1000}
+                <img
+                  className="img-fluid"
                   src="/images/servies/pagesImage/Android-game-development-Company.png"
                   alt="Android game development Company"
                 />
@@ -423,7 +424,7 @@ const AndroidGameDevelopment = () => {
         <div className="container " style={{marginBottom: "10rem"}}>
           <div className="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-3">
             <div className="col card-height mb-4">
-              <div className="card height-card  border-0">
+              <div className="card height-card ">
                 <div className="card-body shadow">
                   <div className="text-center py-3 development_card">
                     <Image
@@ -448,7 +449,7 @@ const AndroidGameDevelopment = () => {
             </div>
 
             <div className="col mb-4" data-aos="zoom-in">
-              <div className="card height-card card-height border-0">
+              <div className="card height-card  border-0">
                 <div className="card-body shadow">
                   <div className="text-center py-3 development_card">
                     <Image
@@ -472,7 +473,7 @@ const AndroidGameDevelopment = () => {
             </div>
 
             <div className="col mb-4">
-              <div className="card height-card card-height border-0">
+              <div className="card height-card  border-0">
                 <div className="card-body shadow">
                   <div className="text-center py-3 development_card">
                     <Image
@@ -502,6 +503,7 @@ const AndroidGameDevelopment = () => {
 
       <IndustriesWeServe/>
       <ProcessWeFollow />
+      <GetInTouch/>
      
     </>
     

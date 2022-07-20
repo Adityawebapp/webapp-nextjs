@@ -31,7 +31,7 @@ VR apps"
         />
       </Head>
 
-      <div className="inner_page">
+      <div className="inner_page ">
         <section className={styles.arvrBg}>
           <div className="container">
             <div className="row flex-reverse">
@@ -69,7 +69,7 @@ VR apps"
           </div>
         </section>
 
-        <div className="card_section py-6 bg-gray" >
+        <div className="card_section bg-gray" style={{padding:"27rem 0"}} >
           <div className="container ">
             <div className="row align-items-center ">
               <div

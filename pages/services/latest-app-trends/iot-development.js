@@ -4,8 +4,10 @@ import styles from "./latest-css/iot.module.css";
 import Head from "next/head";
 import { BsCodeSlash,BsCodeSquare,BsFileCode,BsJournalCode } from 'react-icons/bs';
 import { AiOutlineCheck } from 'react-icons/ai';
+import { GrHostMaintenance } from 'react-icons/gr';
 import IndustriesWeServe from "../../../components/IndustriesWeServe";
 import ProcessWeFollow from "../../../components/ProcessWeFollow";
+import GetInTouch from "../../../components/GetInTouch";
 
 const IotDevelopment = () => {
   return (
@@ -64,7 +66,7 @@ Cloud services for iot"
           </div>
         </section>
 
-        <div className="card_section py-6">
+        <div className="card_section py-6 bg-gray">
           <div className="container">
             <div className="row align-items-center" data-aos="fade-right">
               <div className="col-lg-5 col-md-5 col-sm-12  header_img1">
@@ -212,7 +214,7 @@ Cloud services for iot"
                 data-aos="fade-right"
               >
                 <div className="web-why-choose-us-inner-box mhbox shadow">
-                  <div className="web-why-choose-inner-icon shadow">icon</div>
+                  <div className="web-why-choose-inner-icon shadow"> <GrHostMaintenance/>  </div>
                   <h2>IoT Solution Support and Maintenance</h2>
                   <p>
                     Our team is ready to carry out IoT application monitoring
@@ -239,7 +241,7 @@ Cloud services for iot"
 
           <div className="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-3">
             <div className="col mb-4" data-aos="fade-right">
-              <div className="card ">
+              <div className="card " style={{height: '18rem'}}>
                 <div className="card-body shadow">
                   <div className="text-center py-3 development_card">
                     <Image
@@ -261,7 +263,7 @@ Cloud services for iot"
               </div>
             </div>
             <div className="col mb-4" data-aos="fade-left">
-              <div className="card">
+              <div className="card" style={{height: '18rem'}}>
                 <div className="card-body shadow">
                   <div className="text-center py-3 development_card">
                     <Image
@@ -309,7 +311,7 @@ Cloud services for iot"
           <div className="row justify-content-center">
             <div className="col-md-4 col-lg-4 col-sm-12">
               <div className="col mb-4" data-aos="fade-left">
-                <div className="card">
+                <div className="card" style={{height: '18rem'}}>
                   <div className="card-body shadow">
                     <div className="text-center py-3 development_card">
                       <Image
@@ -324,7 +326,7 @@ Cloud services for iot"
                         The flexible accessibility of IoT mobile apps is one of
                         the crucial reasons for its acceptance. An IoT mobile
                         app could be accessed 24/7 on any device, anywhere in
-                        the world, with amazing cloud services for IoT  
+                        the world, with amazing cloud services for IoT
                       </p>
                     </div>
                   </div>
@@ -335,7 +337,7 @@ Cloud services for iot"
         </div>
 
         <section
-          className="my-6 web-why-choose-us-inner bg-light my-5 iot_development"
+          className="my-6 web-why-choose-us-inner bg-light iot_development"
           data-aos="fade-down"
         >
           <div className="container py-5">
@@ -400,6 +402,7 @@ Cloud services for iot"
 
       <IndustriesWeServe/>
       <ProcessWeFollow />
+      <GetInTouch/>
     </>
   );
 };

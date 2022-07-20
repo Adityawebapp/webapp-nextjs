@@ -4,7 +4,7 @@ import Head from "next/head";
 import Script from "next/script";
 import "../styles/css/Footer.css";
 import "../styles/css/getInTouch.css";
-import "../styles/css/HowTOHelp.css";
+import "../styles/css/HowToHelp.css";
 import "../styles/css/industriesWeServe.css";
 import "../styles/css/ServicesWeOffer.css";
 import "../styles/css/ProcessWeFollow.css";

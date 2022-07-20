@@ -5,6 +5,8 @@ import Game from "./buttonPages/Game";
 import Graphic from "./buttonPages/Graphic";
 import Web from "./buttonPages/Web";
 
+import styles from '../../styles/css/quote.module.css'
+
 const Step1 = ({ formData, setFormData }) => {
   const [state, setState] = useState("Graphic Design");
 
@@ -41,7 +43,7 @@ const Step1 = ({ formData, setFormData }) => {
     <>
     
      
-          <h1 className="text-center "> get quote</h1>
+          <h1 className="text-center fs-6 p-1 text-white bg-blue rounded fw-light mb-3" style={{background: "#7175e1"}}> Please select the most suitable option.</h1>
 
           <div className="quoteForm d-flex justify-content-center justify-content-center ">
             <div className="w-100">
@@ -49,7 +51,7 @@ const Step1 = ({ formData, setFormData }) => {
                 {Fooddata.map((item) => (
                   <div className="col" key={item.id}>
                     <button
-                      className="btn btn-info w-75"
+                      className={styles.qbutton}
                       onClick={() => handleClick(item.name)}
                     >
                       {item.name}

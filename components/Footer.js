@@ -22,7 +22,7 @@ const Footer = () => {
     console.log(data, "formdata");
 
     axios
-      .post("https://api.webapp.world/userMail", { data })
+      .post("https://api.webapp.world/userMail",  data )
       .then((res) => {
         toast.success("mail submit successfully", {
           position: "top-center",
@@ -85,7 +85,7 @@ const Footer = () => {
                   </div>
                   <div className="col-lg-8 col-md-8  col-sm-4">
                     <p className=" text-white mt-2">
-                      <span className="ml-2 number"> +44 800 001 6001 </span>
+                      <span className="ml-2 number"> 0800 001 6001 </span>
                     </p>
                     <p className=" text-white">
                       <span className="ml-2 number"> +91 120-4549471 </span>

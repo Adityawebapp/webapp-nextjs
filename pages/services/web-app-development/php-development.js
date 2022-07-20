@@ -4,6 +4,7 @@ import styles from "./webapp-css/php.module.css";
 import Head from "next/head";
 import IndustriesWeServe from "../../../components/IndustriesWeServe";
 import ProcessWeFollow from "../../../components/ProcessWeFollow";
+import GetInTouch from "../../../components/GetInTouch";
 
 const PhpDevelopment = () => {
   return (
@@ -71,9 +72,8 @@ Custom PHP Web Development"
 
         <div className="container development_section">
           <h1 data-aos="fade-out" className="text-center mt-5">
-            <span className="mycolor"> Suite of PHP development </span>{" "}
+            <span className="mycolor"> Suite of PHP development </span>
             <span className="bottom_Textline_center position-relative">
-              {" "}
               services
             </span>
           </h1>
@@ -81,7 +81,7 @@ Custom PHP Web Development"
           <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-3 my-5">
             <div className="col mb-4" data-aos="zoom-in-left">
               <div className="card border-0">
-                <div className="card-body shadow">
+                <div className="card-body shadow" style={{height: "20rem"}}>
                   <div className="text-center py-3 development_card">
                     <Image
                       width="70px"
@@ -102,7 +102,7 @@ Custom PHP Web Development"
             </div>
             <div className="col mb-4" data-aos="zoom-in">
               <div className="card border-0">
-                <div className="card-body shadow">
+                <div className="card-body shadow" style={{height: "20rem"}}>
                   <div className="text-center py-3 development_card">
                     <Image
                       width="70px"
@@ -125,7 +125,7 @@ Custom PHP Web Development"
 
             <div className="col mb-4" data-aos="zoom-in-left">
               <div className="card border-0">
-                <div className="card-body shadow">
+                <div className="card-body shadow" style={{height: "20rem"}}>
                   <div className="text-center py-3 development_card">
                     <Image
                       width="70px"
@@ -147,7 +147,7 @@ Custom PHP Web Development"
 
             <div className="col mb-4" data-aos="zoom-in-left">
               <div className="card border-0">
-                <div className="card-body shadow">
+                <div className="card-body shadow" style={{height: "20rem"}}>
                   <div className="text-center py-3 development_card">
                     <Image
                       width="70px"
@@ -169,7 +169,7 @@ Custom PHP Web Development"
 
             <div className="col mb-4" data-aos="zoom-in">
               <div className="card border-0">
-                <div className="card-body shadow">
+                <div className="card-body shadow" style={{height: "20rem"}}>
                   <div className="text-center py-3 development_card">
                     <Image
                       width="70px"
@@ -190,7 +190,7 @@ Custom PHP Web Development"
             </div>
             <div className="col mb-4" data-aos="zoom-in-right">
               <div className="card border-0">
-                <div className="card-body shadow">
+                <div className="card-body shadow" style={{height: "20rem"}}>
                   <div className="text-center py-3 development_card">
                     <Image
                       width="70px"
@@ -214,7 +214,7 @@ Custom PHP Web Development"
           <div className="row justify-content-center">
             <div className="col-md-4 mb-4" data-aos="zoom-in-left">
               <div className="card border-0">
-                <div className="card-body shadow">
+                <div className="card-body shadow" style={{height: "20rem"}}>
                   <div className="text-center py-3 development_card">
                     <Image
                       width="70px"
@@ -237,7 +237,7 @@ Custom PHP Web Development"
             </div>
             <div className="col-md-4 mb-4" data-aos="zoom-in">
               <div className="card border-0">
-                <div className="card-body shadow">
+                <div className="card-body shadow" style={{height: "20rem"}}>
                   <div className="text-center py-3 development_card">
                     <Image
                       width="70px"
@@ -262,6 +262,7 @@ Custom PHP Web Development"
 
       <IndustriesWeServe />
       <ProcessWeFollow />
+      <GetInTouch/>
     </>
   );
 };

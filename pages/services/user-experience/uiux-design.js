@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import React from "react";
 import styles from "./user-css/uiux.module.module.css";
@@ -6,6 +7,7 @@ import { BiCodeCurly } from "react-icons/bi";
 import Head from "next/head";
 import IndustriesWeServe from "../../../components/IndustriesWeServe";
 import ProcessWeFollow from "../../../components/ProcessWeFollow";
+import GetInTouch from "../../../components/GetInTouch";
 
 const UiuxDesign = () => {
   return (
@@ -54,9 +56,8 @@ Ui and ux Development"
                 </div>
               </div>
               <div className="col-md-6 col-sm-12 mt-5 header_img1">
-                <Image
-                  width={600}
-                  height={600}
+                <img
+                 
                   className="img-fluid"
                   src="/images/servies/pagesImage/mobile-ui.png"
                   alt="mobile-ui"
@@ -66,13 +67,12 @@ Ui and ux Development"
           </div>
         </section>
 
-        <div className="card_section">
+        <div className="card_section bg-gray">
           <div className="container">
             <div className="row align-items-center">
-              <div className="col-lg-6 col-md-6 col-sm-12 header_img1">
-                <Image
-                  width={500}
-                  height={500}
+              <div className="col-lg-6 col-md-6 col-sm-12 header_img1 ">
+                <img
+                 
                   className="img-fluid"
                   src="/images/servies/pagesImage/Uiux design software.png"
                   alt="Uiux design software"
@@ -81,7 +81,7 @@ Ui and ux Development"
               <div className="col-lg-6 col-md-6 col-sm-12 right_text">
                 <h1 className="mb-5">
                   <span className="mycolor">
-                    Our Graphic Design Team Create Innovative UI and UX
+                    Our Graphic Design Team Create Innovative UI and UX&nbsp;
                   </span>
                   <span className="bottom_Textline_center position-relative">
                     Designs
@@ -110,15 +110,14 @@ Ui and ux Development"
         <div className="container py-5">
           <h1 className="text-center">
             <span className="bottom_Textline_center position-relative">
-              {" "}
-              Our UI/UX{" "}
+              Our UI/UX
             </span>
             <span className="mycolor"> Design Process</span>
           </h1>
 
           <div className="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-3 mt-5">
             <div className="col mb-4">
-              <div className="card card-height border-0">
+              <div className="card" style={{height: "27rem"}}>
                 <div className="card-body shadow">
                   <div className="text-center py-3 development_card">
                     <Image
@@ -144,7 +143,7 @@ Ui and ux Development"
             </div>
 
             <div className="col mb-4">
-              <div className="card card-height card-height border-0">
+              <div className="card " style={{height: "27rem"}}>
                 <div className="card-body shadow">
                   <div className="text-center py-3 development_card">
                     <Image
@@ -171,7 +170,7 @@ Ui and ux Development"
             </div>
 
             <div className="col mb-4">
-              <div className="card card-height border-0">
+              <div className="card"style={{height: "27rem"}}>
                 <div className="card-body shadow">
                   <div className="text-center py-3 development_card">
                     <Image
@@ -303,13 +302,13 @@ Ui and ux Development"
           </div>
         </div>
 
-        <section className="web-why-choose-us-inner bg-light py-5">
+        <section className="web-why-choose-us-inner bg-light py-5 bg-gray">
           <div className="container">
             <div className="text-center">
               <h1>
                 <span className="mycolor">
-                  {" "}
-                  Results that Create an Impact Through{" "}
+                  
+                  Results that Create an Impact Through
                 </span>
                 <br />
                 <span className="bottom_Textline_center position-relative">
@@ -383,6 +382,7 @@ Ui and ux Development"
 
       <IndustriesWeServe/>
       <ProcessWeFollow />
+      <GetInTouch/>
     </>
   );
 };

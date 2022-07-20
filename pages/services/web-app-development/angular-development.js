@@ -111,7 +111,7 @@ App development services uk"
                   surface of the powerful possibilities of the framework. This
                   is where
                   <b>
-                    <b>Webapp</b>
+                    <b> Webapp </b>
                   </b>
                   helps clients to fully leverage the benefits of the flexible
                   and versatile features of the versatile Angular JS. With
@@ -122,7 +122,7 @@ App development services uk"
                 <p className="mt-2">
                   As an excellent Angular Development Company,
                   <b>
-                    <b>Webapp</b>
+                    <b> Webapp </b>
                   </b>
                   has an extremely proficient and experienced team with years of
                   experience specialising in Angular JS mobile app development.
@@ -151,7 +151,7 @@ App development services uk"
                 className="col-lg-8 col-sm-12 col-md-8 right_text main_heading"
                 data-aos="zoom-in-right"
               >
-                <h1 className="my-5 ">
+                <h1 className="my-5  fs-2">
                   <span className="mycolor"> Why Choose </span>
                   <span className="bottom_Textline_center position-relative">
                     
@@ -185,14 +185,13 @@ App development services uk"
           <h1 className="text-center mt-5  fw-bolder">
             <span className="mycolor">Key benefits of Angular for </span>
             <span className="bottom_Textline_center position-relative">
-              
               front-end development
             </span>
           </h1>
           <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-3 my-5">
             <div className="col mb-4" data-aos="zoom-in-right">
               <div className="card benefits-card-height shadow border-0">
-                <div className="card-body">
+                <div className="card-body" style={{height: "19rem"}}>
                   <div className="text-center py-3 development_card">
                     <Image
                       height="85px"
@@ -213,7 +212,7 @@ App development services uk"
 
             <div className="col mb-4" data-aos="zoom-in">
               <div className="card benefits-card-height shadow border-0">
-                <div className="card-body">
+                <div className="card-body" style={{height: "19rem"}}>
                   <div className="text-center py-3 development_card">
                     <Image
                       height="85px"
@@ -231,9 +230,9 @@ App development services uk"
               </div>
             </div>
 
-            <div className="col shadow mb-4" data-aos="zoom-in-left">
-              <div className="card benefits-card-height border-0">
-                <div className="card-body">
+            <div className="col  mb-4" data-aos="zoom-in-left">
+              <div className="card benefits-card-height shadow border-0">
+                <div className="card-body" style={{height: "19rem"}}>
                   <div className="text-center py-3 development_card">
                     <Image
                       width="85px"
@@ -253,10 +252,10 @@ App development services uk"
               </div>
             </div>
 
-            <div className="col shadow mb-4" data-aos="zoom-in-right">
-              <div className="card benefits-card-height border-0">
-                <div className="card-body">
-                  <div className="text-center py-3 development_card">
+            <div className="col  mb-4" data-aos="zoom-in-right">
+              <div className="card benefits-card-height shadow border-0">
+                <div className="card-body" style={{height: "19rem"}}>
+                  <div className="text-center py-3  development_card">
                     <Image
                       height="85px"
                       width="85px"
@@ -276,7 +275,7 @@ App development services uk"
             </div>
             <div className="col mb-4" data-aos="zoom-in">
               <div className="card benefits-card-height shadow border-0">
-                <div className="card-body">
+                <div className="card-body" style={{height: "19rem"}}>
                   <div className="text-center py-3 development_card">
                     <Image
                       height="85px"
@@ -295,9 +294,9 @@ App development services uk"
                 </div>
               </div>
             </div>
-            <div className="col shadow mb-4" data-aos="zoom-in-left">
-              <div className="card benefits-card-height border-0">
-                <div className="card-body">
+            <div className="col  mb-4" data-aos="zoom-in-left">
+              <div className="card benefits-card-height shadow border-0">
+                <div className="card-body" style={{height: "19rem"}}>
                   <div className="text-center py-3 development_card">
                     <Image
                       height="85px"
@@ -324,7 +323,7 @@ App development services uk"
                 <span className="mycolor">
                   Angular Development Services that
                 </span>
-                <span className=""> we bring to you </span>
+                <span className="bottom_Textline_center position-relative"> we bring to you </span>
               </h1>
               <p className="mt-5">
                 Angular JS services make UI components that work on both Android
@@ -343,7 +342,7 @@ App development services uk"
                     <div className="web-why-choose-inner-icon shadow">
                     <GrInsecure/>
                     </div>
-                    <h5>Secure Solutions</h5>
+                    <h5 className="mt-1">Secure Solutions</h5>
                     <p>
                       We prioritise security over everything else. Our Angular
                       applications are robust enough to withstand cross-site
@@ -359,7 +358,7 @@ App development services uk"
                     <div className="web-why-choose-inner-icon shadow">
                      <MdOutlineFeaturedVideo/>
                     </div>
-                    <h5>Features And Functionalities</h5>
+                    <h5 className="mt-1">Features And Functionalities</h5>
                     <p>
                       Angular JS offers a broad spectrum of features and
                       out-of-the-box functionalities.
@@ -374,7 +373,7 @@ App development services uk"
                     <div className="web-why-choose-inner-icon shadow">
                       <BsJournalCode/>
                     </div>
-                    <h5>Coding With Reusable Components</h5>
+                    <h5 className="mt-1">Coding With Reusable Components</h5>
                     <p>
                       Our team is adept at creating internal abstractions in
                       internal coding. This enables us to create custom
@@ -390,7 +389,7 @@ App development services uk"
                     <div className="web-why-choose-inner-icon shadow">
                       <MdOutlineDesignServices/>
                     </div>
-                    <h5>Seamless User Experience</h5>
+                    <h5 className="mt-1">Seamless User Experience</h5>
                     <p>
                       Our Angular JS web development process helps us craft
                       Angular applications with user-friendly features and
@@ -406,7 +405,7 @@ App development services uk"
                     <div className="web-why-choose-inner-icon shadow">
                         <FcMultipleDevices/>
                     </div>
-                    <h5>Multi-Platform Support</h5>
+                    <h5 className="mt-1">Multi-Platform Support</h5>
                     <p>
                       With Angular JS, various mobile-optimised UI tools can be
                       employed to build customised and cross-platform
@@ -422,7 +421,7 @@ App development services uk"
                     <div className="web-why-choose-inner-icon shadow">
                         <GiScales/>
                     </div>
-                    <h5>Scalability</h5>
+                    <h5 className="mt-1">Scalability</h5>
                     <p>
                       Angular JS consists of ready-made components that are
                       useful in the scaling of your project. This makes it the

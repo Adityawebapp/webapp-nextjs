@@ -7,9 +7,11 @@ import { BsCashCoin,BsCoin,BsCurrencyBitcoin, } from 'react-icons/bs';
 import {FaViacoin } from 'react-icons/fa';
 import {RiCoinsFill ,RiHandCoinFill,RiCopperCoinLine} from 'react-icons/ri';
 import {SiDogecoin,SiLitecoin} from 'react-icons/si';
+import {GiCrownCoin} from 'react-icons/gi';
 import { AiOutlineCheck  } from 'react-icons/ai';
 import IndustriesWeServe from "../../../components/IndustriesWeServe";
 import ProcessWeFollow from "../../../components/ProcessWeFollow";
+import GetInTouch from "../../../components/GetInTouch";
 
 
 const BlockchainDevelopment = () => {
@@ -67,7 +69,7 @@ Developing blockchain applications"
           </div>
         </section>
 
-        <div className="card_section py-6">
+        <div className="card_section py-6 bg-gray">
           <div className="container">
             <div className="row align-items-center" data-aos="fade-right">
               <div className="col-md-6 col-sm-12 right_text main_heading">
@@ -303,8 +305,8 @@ Developing blockchain applications"
                   data-aos="fade-up-left"
                 >
                   <div className="web-why-choose-us-inner-box mhbox shadow">
-                    <div className="web-why-choose-inner-icon shadow">icon</div>
-                    <h2>Blockchain dApps</h2>
+                    <div className="web-why-choose-inner-icon shadow"><GiCrownCoin/></div>
+                    <h2>Blockchain Apps</h2>
                     <p>
                       Our Apps Development team helps our clients to store all
                       their transactions without any kind of outside
@@ -453,6 +455,7 @@ Developing blockchain applications"
 
       <IndustriesWeServe/>
       <ProcessWeFollow />
+      <GetInTouch/>
     </>
   );
 };

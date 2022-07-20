@@ -1,9 +1,11 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import React from "react";
 import styles from "./webapp-css/django.module.css";
 import Head from "next/head";
 import IndustriesWeServe from "../../../components/IndustriesWeServe";
 import ProcessWeFollow from "../../../components/ProcessWeFollow";
+import GetInTouch from "../../../components/GetInTouch";
 
 const PythonDjangoDevelopment = () => {
   return (
@@ -55,10 +57,9 @@ Django python mobile development"
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 col-sm-12 header_img1">
-                <Image
-                  width={1000}
-                  height={1000}
+              <div className="col-md-6 col-sm-12 header_img1 text-center">
+                <img
+             
                   className="img-fluid"
                   src="/images/servies/pagesImage/Django-for-Web-Development.png"
                   alt="Django-for-Web-Development"
@@ -68,16 +69,15 @@ Django python mobile development"
           </div>
         </section>
 
-        <div className="py-5">
-          <div className="container">
+        <div className="py-5 bg-gray">
+          <div className="container ">
             <div className="row align-items-center">
               <div
                 className="col-lg-6 col-sm-12 header_img1"
                 data-aos="zoom-in-right"
               >
-                <Image
-                  width={500}
-                  height={500}
+                <img
+                  className="w-75"
                   src="/images/servies/pagesImage/Django python mobile development.png"
                   alt="Django python mobile development"
                 />
@@ -363,7 +363,7 @@ Django python mobile development"
           </p>
           <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-3">
             <div className="col mb-4" data-aos="zoom-in-right">
-              <div className="card  Advantages-height-card border-0">
+              <div className="card  Advantages-height-card" style={{height:"20rem"}}>
                 <div className="card-body shadow">
                   <div className="text-center py-3 development_card">
                     <Image
@@ -382,7 +382,7 @@ Django python mobile development"
               </div>
             </div>
             <div className="col mb-4" data-aos="zoom-in">
-              <div className="card Advantages-height-card">
+              <div className="card Advantages-height-card" style={{height:"20rem"}}>
                 <div className="card-body shadow">
                   <div className="text-center py-3 development_card">
                     <Image
@@ -405,7 +405,7 @@ Django python mobile development"
             </div>
 
             <div className="col mb-4" data-aos="zoom-in-left">
-              <div className="card Advantages-height-card">
+              <div className="card Advantages-height-card" style={{height:"20rem"}}>
                 <div className="card-body shadow">
                   <div className="text-center py-3 development_card">
                     <Image
@@ -427,7 +427,7 @@ Django python mobile development"
             </div>
 
             <div className="col mb-4" data-aos="zoom-in-right">
-              <div className="card Advantages-height-card">
+              <div className="card Advantages-height-card" style={{height:"20rem"}}>
                 <div className="card-body shadow">
                   <div className="text-center py-3 development_card">
                     <Image
@@ -448,7 +448,7 @@ Django python mobile development"
               </div>
             </div>
             <div className="col mb-4" data-aos="zoom-in">
-              <div className="card Advantages-height-card">
+              <div className="card Advantages-height-card" style={{height:"20rem"}}>
                 <div className="card-body shadow">
                   <div className="text-center py-3 development_card">
                     <Image
@@ -470,7 +470,7 @@ Django python mobile development"
             </div>
 
             <div className="col mb-4" data-aos="zoom-in-left">
-              <div className="card Advantages-height-card">
+              <div className="card Advantages-height-card" style={{height:"20rem"}}>
                 <div className="card-body shadow">
                   <div className="text-center py-3 development_card">
                     <Image
@@ -492,7 +492,7 @@ Django python mobile development"
 
           <div className="row justify-content-center">
             <div className="col-md-4 mb-4" data-aos="zoom-in-right">
-              <div className="card Advantages-height-card">
+              <div className="card Advantages-height-card" style={{height:"20rem"}}>
                 <div className="card-body shadow">
                   <div className="text-center py-3 development_card">
                     <Image
@@ -512,7 +512,7 @@ Django python mobile development"
               </div>
             </div>
             <div className="col-md-4 mb-4" data-aos="zoom-in">
-              <div className="card Advantages-height-card">
+              <div className="card Advantages-height-card" style={{height:"20rem"}}>
                 <div className="card-body shadow">
                   <div className="text-center py-3 development_card">
                     <Image
@@ -538,6 +538,7 @@ Django python mobile development"
 
       <IndustriesWeServe/>
       <ProcessWeFollow />
+      <GetInTouch/>
     </>
   );
 };

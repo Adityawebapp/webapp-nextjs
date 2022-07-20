@@ -404,6 +404,13 @@ position: relative;
     transform: translate(-50%, -50%);
 }
 
+.socond_text_right h1 {
+    font-size: 2rem;
+    font-weight: 400;
+    --line-height: 1.2;
+    line-height: var(--line-height);
+}
+
 
 .second_left_image{
     border-radius: 37% 63% 69% 31% / 61% 31% 69% 39% ;

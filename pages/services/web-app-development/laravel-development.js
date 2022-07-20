@@ -10,6 +10,7 @@ import { SiLaravelhorizon } from "react-icons/si";
 import Head from "next/head";
 import IndustriesWeServe from "../../../components/IndustriesWeServe";
 import ProcessWeFollow from "../../../components/ProcessWeFollow";
+import GetInTouch from "../../../components/GetInTouch";
 
 const LaravelDevelopment = () => {
   return (
@@ -97,8 +98,8 @@ Laravel development company"
                 <h1 data-aos="fade-left">
                   <span className="mycolor"> Custom Laravel </span>
                   <span className="bottom_Textline_center position-relative">
-                    {" "}
-                    Development Company{" "}
+                    
+                    Development Company
                   </span>
                 </h1>
                 <p data-aos="fade-left" data-aos-duration="500">
@@ -131,10 +132,10 @@ Laravel development company"
             <div className="container">
               <div className="text-center  mb-2" data-aos="zoom-in">
                 <h1 className="pt-4 ">
-                  <span className="mycolor"> Why Choose </span>{" "}
+                  <span className="mycolor"> Why Choose </span>
                   <span className="bottom_Textline_center position-relative   ">
-                    {" "}
-                    Laravel?{" "}
+                    
+                    Laravel?
                   </span>
                 </h1>
               </div>
@@ -176,7 +177,7 @@ Laravel development company"
                 data-aos-duration="500"
               >
                 <div className="card border-0">
-                  <div className="card-body shadow">
+                  <div className="card-body shadow" style={{    height: "27rem"}}>
                     <div className="text-center py-3 development_card">
                       <Image
                         width="100%"
@@ -205,7 +206,7 @@ Laravel development company"
                 data-aos-duration="500"
               >
                 <div className="card">
-                  <div className="card-body shadow">
+                  <div className="card-body shadow" style={{    height: "27rem"}}>
                     <div className="text-center py-3 development_card">
                       <Image
                         width="70px"
@@ -237,7 +238,7 @@ Laravel development company"
                 data-aos-duration="500"
               >
                 <div className="card">
-                  <div className="card-body shadow">
+                  <div className="card-body shadow" style={{    height: "27rem"}}>
                     <div className="text-center py-3 development_card">
                       <Image
                         width="70px"
@@ -272,7 +273,7 @@ Laravel development company"
               <h1>
                 <span className="mycolor"> Development Services that </span>
                 <span className="bottom_Textline_center position-relative   ">
-                  {" "}
+                  
                   we bring to you
                 </span>
               </h1>
@@ -396,6 +397,7 @@ Laravel development company"
 
       <IndustriesWeServe />
       <ProcessWeFollow />
+      <GetInTouch/>
     </>
   );
 };

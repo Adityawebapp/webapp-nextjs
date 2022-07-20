@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import Head from "next/head";
@@ -58,9 +59,7 @@ Ios game development services"
                 </div>
               </div>
               <div className="col-lg-7 col-md-7 col-sm-12 center_image header_img1">
-                <Image
-                  width={700}
-                  height={500}
+                <img
                   className="img-fluid"
                   src="/images/servies/pagesImage/IOS App Development Company-UK.png"
                   alt="IOS Game Development Company UK"
@@ -70,7 +69,7 @@ Ios game development services"
           </div>
         </section>
 
-        <div className="">
+        <div className="bg-gray">
           <div className="container py-6 socond_text">
             <div className="row">
               <div
@@ -78,9 +77,7 @@ Ios game development services"
                 data-aos="fade-right"
                 data-aos-duration="500"
               >
-                <Image
-                  width={700}
-                  height={600}
+                <img
                   className="img-fluid"
                   src="/images/servies/pagesImage/Ios-App-development-services.png"
                   alt="Ios game development services"
@@ -93,12 +90,10 @@ Ios game development services"
               >
                 <h1 className="mb-5">
                   <span className="mycolor">
-                    Why Choose us for iOS App Development
+                    Why Choose us for iOS App Development&nbsp;
                   </span>
-                  <span className="bottom_Textline_center position-relative ">
-                    {" "}
-                    Services?
-                  </span>
+                  <span className="bottom_Textline_center position-relative "> 
+                  Services?  </span>
                 </h1>
                 <p>
                   With an extensive portfolio of iOS app development projects,
@@ -155,7 +150,7 @@ Ios game development services"
                 data-aos="fade-left"
                 data-aos-duration="800"
               >
-                <div className="card-body">
+                <div className="card-body" style={{height: "35rem"}}>
                   <div className="text-center py-3 development_card">
                     <Image
                       width="80px"
@@ -182,7 +177,7 @@ Ios game development services"
                 data-aos="fade-center"
                 data-aos-duration="800"
               >
-                <div className="card-body">
+                <div className="card-body" style={{height: "35rem"}}>
                   <div className="text-center py-3 development_card">
                     <Image
                       width="80px"
@@ -213,7 +208,7 @@ Ios game development services"
                 data-aos="fade-right"
                 data-aos-duration="800"
               >
-                <div className="card-body">
+                <div className="card-body" style={{height: "35rem"}}>
                   <div className="text-center py-3 development_card">
                     <Image
                       width="80px"
@@ -247,7 +242,7 @@ Ios game development services"
                 data-aos="fade-left"
                 data-aos-duration="800"
               >
-                <div className="card-body">
+                <div className="card-body" style={{height: "35rem"}}>
                   <div className="text-center py-3 development_card">
                     <Image
                       width="80px"
@@ -275,7 +270,7 @@ Ios game development services"
                 data-aos="fade-center"
                 data-aos-duration="800"
               >
-                <div className="card-body">
+                <div className="card-body" style={{height: "35rem"}}>
                   <div className="text-center py-3 development_card">
                     <Image
                       width="100%"
@@ -304,7 +299,7 @@ Ios game development services"
                 data-aos="fade-right"
                 data-aos-duration="800"
               >
-                <div className="card-body">
+                <div className="card-body" style={{height: "35rem"}}>
                   <div className="text-center py-3 development_card">
                     <Image
                       width="100%"
@@ -337,7 +332,7 @@ Ios game development services"
                 data-aos="fade-right"
                 data-aos-duration="800"
               >
-                <div className="card-body">
+                <div className="card-body" style={{height: "35rem"}}>
                   <div className="text-center py-3 development_card">
                     <Image
                       width="100%"
@@ -373,7 +368,7 @@ Ios game development services"
                 data-aos="fade-left"
                 data-aos-duration="800"
               >
-                <div className="card-body">
+                <div className="card-body" style={{height: "35rem"}}>
                   <div className="text-center py-3 development_card">
                     <Image
                       width="100%"
@@ -402,7 +397,7 @@ Ios game development services"
                 data-aos="fade-left"
                 data-aos-duration="800"
               >
-                <div className="card-body">
+                <div className="card-body" style={{height: "35rem"}}>
                   <div className="text-center py-3 development_card">
                     <Image
                       width="100%"

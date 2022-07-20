@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import Head from "next/head";
 import React from "react";
@@ -32,9 +33,9 @@ Flutter app development company"
       </Head>
 
 
-        <div className="inner_page">
+        <div className="inner_page ">
           <section  className={`${styles.flutterbg}`}>
-            <div className="container">
+            <div className="container ">
               <div className="row flex-reverse">
                 <div className="col-md-5 col-sm-12 d-flex align-items-center text-white">
                   <div className="top_text">
@@ -60,9 +61,8 @@ Flutter app development company"
                   </div>
                 </div>
                 <div className="col-md-7 col-sm-12 header_img1">
-                  <Image
-                    width={700}
-                    height={600}
+                  <img
+                    
                     className="img-fluid"
                     src="/images/servies/pagesImage/Flutter app development company.png"
                     alt="Flutter app development company"
@@ -73,10 +73,10 @@ Flutter app development company"
           </section>
 
           <div
-            className="card_section py-5"
+            className="card_section py-5 bg-gray "
             data-aos="zoom-out-up"
           >
-            <div className="container">
+            <div className="container ">
               <div className="row align-items-center">
                 <div className="col-lg-6 col-sm-12 header_img1">
                   <Image
